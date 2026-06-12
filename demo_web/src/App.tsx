@@ -312,9 +312,7 @@ function LandingPage() {
       <header className="sticky top-0 z-40 border-b border-slate-900/5 bg-white/70 backdrop-blur-xl">
         <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-5 py-3.5 lg:px-8">
           <Link to="/" className="flex items-center gap-3 text-lg font-extrabold tracking-tight text-teal-950">
-            <span className="grid size-10 place-items-center rounded-2xl bg-gradient-to-br from-teal-600 to-teal-800 text-white shadow-lg shadow-teal-900/25 ring-1 ring-inset ring-white/25">
-              <ShieldCheck className="size-5" />
-            </span>
+            <img src="/apple-touch-icon.png" alt="AmanAkses" className="size-10 rounded-2xl" />
             AmanAkses
           </Link>
           <nav className="hidden items-center gap-7 text-sm font-semibold text-slate-600 md:flex" aria-label="Navigasi landing">
@@ -324,7 +322,7 @@ function LandingPage() {
           </nav>
           <Link
             to="/app/dashboard"
-            className="inline-flex h-10 items-center justify-center rounded-full bg-gradient-to-b from-teal-600 to-teal-700 px-5 text-sm font-bold text-white shadow-lg shadow-teal-900/20 ring-1 ring-inset ring-white/20 transition hover:from-teal-700 hover:to-teal-800"
+            className="inline-flex h-10 items-center justify-center rounded-full bg-gradient-to-b from-teal-600 to-teal-700 px-5 text-sm font-bold text-white shadow-lg shadow-teal-900/20 ring-1 ring-inset ring-white/20 transition hover:from-teal-700 hover:to-teal-800 !text-white"
           >
             Buka Demo
           </Link>
@@ -348,7 +346,7 @@ function LandingPage() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               to="/app/dashboard"
-              className="inline-flex h-13 items-center justify-center gap-2 rounded-full bg-gradient-to-b from-teal-600 to-teal-700 px-7 text-base font-bold text-white shadow-lg shadow-teal-900/25 ring-1 ring-inset ring-white/20 transition hover:-translate-y-0.5 hover:from-teal-700 hover:to-teal-800 hover:shadow-xl hover:shadow-teal-900/30"
+              className="inline-flex h-13 items-center justify-center gap-2 rounded-full bg-gradient-to-b from-teal-600 to-teal-700 px-7 text-base font-bold text-white shadow-lg shadow-teal-900/25 ring-1 ring-inset ring-white/20 transition hover:-translate-y-0.5 hover:from-teal-700 hover:to-teal-800 hover:shadow-xl hover:shadow-teal-900/30 !text-white"
             >
               Mulai ruang aman <ChevronRight className="size-5" />
             </Link>
@@ -523,7 +521,7 @@ function LandingPage() {
             </p>
             <Link
               to="/app/dashboard"
-              className="mt-7 inline-flex h-13 items-center justify-center gap-2 rounded-full bg-gradient-to-b from-teal-600 to-teal-700 px-8 text-base font-bold text-white shadow-lg shadow-teal-900/25 ring-1 ring-inset ring-white/20 transition hover:-translate-y-0.5 hover:from-teal-700 hover:to-teal-800"
+              className="mt-7 inline-flex h-13 items-center justify-center gap-2 rounded-full bg-gradient-to-b from-teal-600 to-teal-700 px-8 text-base font-bold text-white shadow-lg shadow-teal-900/25 ring-1 ring-inset ring-white/20 transition hover:-translate-y-0.5 hover:from-teal-700 hover:to-teal-800 !text-white"
             >
               Buka demo sekarang <ChevronRight className="size-5" />
             </Link>
@@ -599,9 +597,9 @@ function AppShell() {
         <div className="flex h-full flex-col overflow-y-auto">
           <div className="flex items-center justify-between px-1">
             <Link to="/app/dashboard" className="flex items-center gap-3">
-              <span className="grid size-11 place-items-center rounded-2xl bg-gradient-to-br from-teal-600 to-teal-800 text-white shadow-lg shadow-teal-900/25 ring-1 ring-inset ring-white/25">
-                <ShieldCheck className="size-6" />
-              </span>
+          
+                <img src="/apple-touch-icon.png" alt="AmanAkses" className="size-10 object-cover" />
+        
               <span className="leading-tight">
                 <span className="block text-lg font-extrabold tracking-tight text-teal-950">AmanAkses</span>
                 <span className="block text-[11px] font-semibold text-teal-700/80">Aman. Tepercaya. Untuk semua.</span>
