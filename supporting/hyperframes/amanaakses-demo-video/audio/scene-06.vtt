@@ -1,0 +1,16 @@
+1
+00:00:00,100 --> 00:00:10,488
+Laporan awal merangkum informasi yang telah dipilih: ringkasan pengguna, kronologi yang diterima, bukti, dan kebutuhan akses.
+
+2
+00:00:10,438 --> 00:00:16,785
+Dokumen ini bukan putusan hukum, diagnosis, atau penentu kebenaran.
+
+3
+00:00:16,785 --> 00:00:24,151
+Kunci Gemini disimpan melalui environment variable server-side bernama Gemini A P I Key.
+
+4
+00:00:24,151 --> 00:00:30,025
+Kunci tersebut tidak dikirim ke browser dan tidak dimasukkan ke source archive.
+

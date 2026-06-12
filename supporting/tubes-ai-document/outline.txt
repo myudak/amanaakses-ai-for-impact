@@ -1,0 +1,221 @@
+000	TUGAS PROYEK
+001	KECERDASAN BUATAN
+002	SISTEM AMANAKSES
+004	Dosen Pengampu :
+005	Dr. Helmie Arif Wibawa, S.Si.,M.Cs.
+011	Disusun Oleh:
+012	Muchammad Yuda Tri Ananda (24060124110142)
+013	Nadia Azura Nurhaniya (24060124120019)
+014	Muhammad Zaidaan Ardiyansyah (24060124140200)
+015	Anintya Abhi Wiryateja (24060124130053)
+016	Muhamad Kemal Faza (24060124120013)
+019	DEPARTEMEN INFORMATIKA
+020	FAKULTAS SAINS DAN MATEMATIKA
+021	UNIVERSITAS DIPONEGORO
+022	2026
+025	KATA PENGANTAR
+069	DAFTAR ISI
+113	BAB I
+114	PENDAHULUAN
+116	Latar Belakang
+117	Kekerasan seksual merupakan permasalahan serius yang membutuhkan penanganan komprehensif, mencakup pencegahan, pelindungan, dan pemulihan korban. Undang-Undang Nomor 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual menegaskan pentingnya koordinasi antar pihak dalam menangani kasus kekerasan seksual secara menyeluruh. Namun di tengah upaya tersebut, terdapat kelompok yang justru paling rentan sekaligus paling sulit dijangkau oleh sistem penanganan yang ada, yaitu penyandang disabilitas.
+118	Penyandang disabilitas menghadapi hambatan berlapis ketika mengalami atau berisiko mengalami kekerasan seksual. Hambatan tersebut meliputi kesulitan komunikasi, keterbatasan akses informasi, ketergantungan pada orang lain, serta minimnya layanan yang dirancang dengan mempertimbangkan kebutuhan mereka. Undang-Undang Nomor 8 Tahun 2016 tentang Penyandang Disabilitas menekankan pemenuhan kesamaan kesempatan, aksesibilitas, dan akomodasi yang layak bagi penyandang disabilitas, namun implementasinya di ranah layanan digital masih sangat terbatas.
+119	Data Komnas Perempuan dalam CATAHU 2024 mencatat 105 kasus kekerasan terhadap perempuan dengan disabilitas, dengan 38 kasus dilaporkan langsung ke Komnas Perempuan. Angka ini diyakini jauh lebih kecil dari kenyataan di lapangan karena banyak korban tidak memiliki sarana untuk melaporkan atau bahkan sekadar mendokumentasikan pengalaman mereka. Peraturan Pemerintah Nomor 30 Tahun 2025 tentang Pencegahan TPKS juga menegaskan bahwa mekanisme pencegahan dan penanganan harus memenuhi prinsip aksesibilitas bagi penyandang disabilitas.
+120	Di sisi lain, perkembangan Artificial Intelligence (AI) membuka peluang besar untuk menjawab permasalahan ini. AI dapat digunakan untuk menyederhanakan bahasa informasi, membantu pengguna menyusun kronologi kejadian secara otomatis, serta menghasilkan draft laporan awal yang terstruktur, tanpa mengorbankan privasi dan kendali pengguna atas datanya. Dengan menggabungkan prinsip aksesibilitas digital (WCAG 2.2), desain berbasis trauma, dan pemanfaatan AI yang bertanggung jawab, sebuah platform digital dapat menjadi jembatan bagi penyandang disabilitas untuk memahami situasi mereka, mendokumentasikan kejadian secara aman, dan menentukan langkah bantuan secara mandiri.
+121	Atas dasar itulah dikembangkan AmanAkses, sebuah platform digital aksesibel yang membantu penyandang disabilitas memahami bentuk kekerasan seksual, menyimpan catatan dan bukti secara aman, menyusun kronologi kejadian, serta menyiapkan laporan awal sesuai persetujuan pengguna.
+122	Rumusan Masalah
+123	Berdasarkan latar belakang di atas, rumusan masalah dalam proyek ini adalah sebagai berikut.
+124	Bagaimana membantu penyandang disabilitas memahami bentuk kekerasan seksual, hak korban, dan pilihan bantuan melalui bahasa yang sederhana, aksesibel, dan tidak menyalahkan korban?
+125	Bagaimana menyediakan ruang pencatatan yang aman agar pengguna dapat menyusun pengalaman, kronologi, dan bukti tanpa harus menceritakan ulang peristiwa secara berulang kepada banyak pihak?
+126	Bagaimana menjaga kendali data tetap berada di tangan pengguna, termasuk kapan data disimpan, dihapus, atau dibagikan kepada pendamping atau lembaga layanan?
+127	Bagaimana merancang sistem yang mendukung berbagai kebutuhan aksesibilitas seperti pembaca layar, catatan suara, bahasa mudah, tombol besar, kontras tinggi, dan video bahasa isyarat?
+128	Bagaimana memastikan teknologi AI hanya membantu merapikan informasi dan tidak membuat vonis, diagnosis, atau keputusan hukum otomatis?
+129	Tujuan Proyek
+130	Tujuan dari pengembangan AmanAkses adalah sebagai berikut.
+131	Membangun platform digital aksesibel yang membantu penyandang disabilitas memahami bentuk kekerasan seksual, hak korban, dan pilihan bantuan melalui informasi yang mudah dipahami.
+132	Menyediakan jurnal aman dan brankas bukti terenkripsi untuk menyimpan catatan, media, dokumen, dan informasi penting secara terstruktur.
+133	Membantu pengguna menyusun kronologi kejadian secara bertahap berdasarkan waktu, lokasi, pihak terkait, dampak, dan bukti pendukung.
+134	Menghasilkan laporan awal yang dapat ditinjau oleh pendamping atau lembaga layanan sesuai persetujuan pengguna.
+135	Menerapkan prinsip privacy-by-design, consent-by-design, accessibility-by-design, dan human-in-the-loop agar sistem aman digunakan pada konteks sensitif.
+136	Manfaat Proyek
+137	Bagi Pengguna
+138	Penyandang disabilitas sebagai pengguna utama mendapatkan ruang aman digital untuk memahami situasi yang mereka hadapi, mencatat pengalaman secara terstruktur, menyimpan bukti dengan aman, dan menentukan sendiri langkah yang ingin diambil tanpa tekanan dari pihak mana pun. Pengguna tidak perlu mengulang cerita mereka berkali-kali kepada berbagai pihak karena sistem membantu merangkum informasi dalam satu laporan awal yang dapat dibagikan secara selektif.
+139	Bagi Pengembang
+140	Proyek ini memberikan pengalaman langsung bagi tim pengembang dalam merancang sistem yang menggabungkan aksesibilitas digital, keamanan data, desain berbasis trauma, dan pemanfaatan AI yang bertanggung jawab. Tim memperoleh pemahaman mendalam tentang bagaimana teknologi dapat digunakan untuk menciptakan dampak sosial nyata, sekaligus mempraktikkan metodologi pengembangan perangkat lunak yang berorientasi pada pengguna.
+141	Bagi Institusi/Masyarakat
+142	Satgas PPKS/PPKPT, lembaga layanan, dan aparat penegak hukum mendapatkan laporan awal yang lebih terstruktur, jelas, dan disusun berdasarkan persetujuan pengguna, sehingga proses triase dan tindak lanjut dapat dilakukan lebih terarah. Bagi masyarakat luas, AmanAkses berkontribusi dalam membangun ekosistem pencegahan kekerasan seksual yang inklusif, aksesibel, dan ramah disabilitas, selaras dengan amanat PP Nomor 30 Tahun 2025 dan Permendikbudristek Nomor 55 Tahun 2024.
+143	Target Pengguna
+144	Target pengguna utama AmanAkses adalah penyandang disabilitas yang mengalami atau berisiko mengalami kekerasan seksual, mencakup pengguna dengan disabilitas netra atau low vision, pengguna Tuli atau dengan hambatan pendengaran, pengguna dengan disabilitas intelektual atau kognitif, pengguna dengan disabilitas fisik, serta pengguna dengan disabilitas psikososial. Selain pengguna utama, sistem juga dirancang untuk digunakan oleh pendamping tepercaya, Satgas PPKS/PPKPT, lembaga layanan bantuan hukum, dan admin sistem lembaga yang mendukung proses pendampingan.
+145	Batasan masalah
+146	Agar pengembangan tetap terfokus dan tidak melampaui kapasitas tim serta waktu pengerjaan, berikut adalah batasan masalah proyek AmanAkses.
+147	AmanAkses dirancang sebagai alat bantu dokumentasi aman dan penyusunan laporan awal, bukan sebagai pengganti layanan darurat, psikolog, konselor, pendamping hukum, Satgas, atau aparat penegak hukum.
+148	Sistem tidak menyatakan apakah suatu peristiwa pasti merupakan tindak pidana. Validasi kebenaran kasus sepenuhnya dilakukan oleh manusia atau pendamping berwenang.
+149	Tidak terdapat fitur auto-submit ke lembaga eksternal. Setiap pembagian data memerlukan persetujuan eksplisit dari pengguna.
+150	Fitur AI yang diimplementasikan terbatas pada penyusunan kronologi, penyederhanaan bahasa, pembuatan draft laporan awal, dan speech-to-text. AI tidak membuat vonis, diagnosis, prediksi kebenaran, atau rekomendasi hukum final.
+151	Sistem tidak menyediakan fitur penyadapan, perekaman tersembunyi, atau tindakan pengumpulan bukti lain yang melanggar hukum.
+152	Pengembangan prototype difokuskan pada versi web/PWA dengan antarmuka yang memenuhi prinsip dasar WCAG 2.2.
+190	BAB II
+191	ANALISIS MASALAH DAN STUDI LITERATUR
+193	Identifikasi Masalah
+194	Berdasarkan studi regulasi dan observasi terhadap kondisi layanan yang tersedia, ditemukan beberapa permasalahan utama yang dihadapi penyandang disabilitas dalam konteks kekerasan seksual.
+195	Pertama, minimnya akses terhadap informasi yang aksesibel. Sebagian besar materi edukasi tentang kekerasan seksual, hak korban, dan mekanisme pelaporan disajikan dalam bahasa hukum yang kompleks tanpa alternatif dalam format audio, easy-read, atau bahasa isyarat. Kedua, tidak tersedianya ruang aman untuk mendokumentasikan pengalaman. Korban seringkali hanya mengandalkan catatan manual di ponsel atau buku yang mudah hilang, tidak terenkripsi, dan sulit disusun menjadi kronologi yang koheren. Ketiga, proses pelaporan yang tidak ramah disabilitas. Sistem aduan yang ada umumnya tidak aksesibel bagi pengguna dengan screen reader, tidak mendukung navigasi keyboard, dan langsung memaksa pengguna untuk mengisi formulir laporan formal tanpa tahapan pendahuluan. Keempat, risiko trauma ulang akibat keharusan menceritakan kejadian berulang kali kepada berbagai pihak, mulai dari pendamping, Satgas, hingga aparat penegak hukum. Kelima, tidak adanya mekanisme yang menempatkan kendali data sepenuhnya di tangan pengguna, sehingga korban merasa tidak memiliki kontrol atas informasi sensitif mereka.
+196	Analisis Penyebab Masalah
+197	Permasalahan di atas disebabkan oleh beberapa faktor yang saling berkaitan. Dari sisi desain layanan digital, sebagian besar platform yang ada tidak dirancang dengan mempertimbangkan kebutuhan multi-disabilitas sejak awal. Aksesibilitas diperlakukan sebagai fitur tambahan, bukan sebagai prinsip dasar perancangan. Dari sisi regulasi dan implementasi, meskipun UU Penyandang Disabilitas dan PP Nomor 30 Tahun 2025 mewajibkan aksesibilitas layanan, belum ada mekanisme teknis yang secara spesifik menjembatani kebutuhan penyandang disabilitas dalam proses pendampingan kekerasan seksual. Dari sisi keterbatasan teknologi yang digunakan, sistem yang ada belum memanfaatkan kapabilitas AI modern untuk menyederhanakan bahasa, menyusun kronologi otomatis, atau menghasilkan ringkasan yang dapat mengurangi beban penceritaan ulang. Dari sisi kesadaran dan kepercayaan, penyandang disabilitas seringkali tidak percaya bahwa data mereka akan aman jika dilaporkan secara digital, terutama karena tidak adanya mekanisme enkripsi dan consent yang transparan.
+200	Studi Literatur
+201	Artificial Intelligence
+202	Artificial Intelligence (AI) adalah bidang ilmu komputer yang berfokus pada pengembangan sistem yang mampu melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pemahaman bahasa, pengenalan pola, pengambilan keputusan, dan pembuatan konten. Dalam konteks AmanAkses, AI dimanfaatkan secara terbatas dan bertanggung jawab untuk mendukung pengguna dalam menyusun informasi, bukan untuk membuat keputusan substantif atas nama pengguna.
+203	Prinsip human-in-the-loop menjadi dasar penggunaan AI dalam sistem ini, di mana setiap output yang dihasilkan oleh AI wajib ditinjau, diedit, dan disetujui oleh pengguna sebelum digunakan atau dibagikan. Pendekatan ini sejalan dengan prinsip AI yang bertanggung jawab, yang menekankan transparansi, kontrol manusia, dan penghindaran dampak negatif terhadap kelompok rentan.
+204	AI Agent/LLM
+205	Large Language Model (LLM) adalah jenis model AI yang dilatih pada data teks dalam skala besar sehingga mampu memahami dan menghasilkan teks secara alami. Dalam pengembangan AmanAkses, LLM digunakan melalui API untuk beberapa fungsi spesifik, yaitu penyederhanaan bahasa hukum menjadi bahasa mudah (plain language), ekstraksi informasi waktu dan urutan dari catatan pengguna untuk menyusun kronologi, perangkuman catatan menjadi ringkasan untuk laporan awal, serta konversi suara ke teks (speech-to-text).
+206	AI Agent dalam konteks ini merujuk pada kemampuan sistem untuk secara otomatis menjalankan serangkaian langkah berdasarkan instruksi pengguna, misalnya mengambil entri jurnal yang relevan, mengidentifikasi urutan kejadian, dan menghasilkan draft kronologi. Namun, setiap langkah agen tetap memerlukan konfirmasi pengguna sebelum diterapkan.
+207	Teknologi yang Digunakan
+208	Pengembangan AmanAkses menggunakan tumpukan teknologi modern yang dipilih berdasarkan kebutuhan aksesibilitas, keamanan, dan kemudahan pengembangan. Frontend dibangun menggunakan Next.js/React dengan TypeScript dan Tailwind CSS, dilengkapi komponen ARIA untuk mendukung aksesibilitas. Backend menggunakan NestJS atau FastAPI dengan REST API dan dokumentasi OpenAPI. Penyimpanan data menggunakan PostgreSQL untuk metadata dan MinIO/S3-compatible object storage untuk file bukti terenkripsi. Enkripsi diterapkan secara end-to-end menggunakan TLS, enkripsi at-rest, dan envelope encryption. Untuk pengujian aksesibilitas, digunakan axe-core, Lighthouse accessibility, serta pengujian manual dengan NVDA/VoiceOver dan navigasi keyboard.
+209	Penelitian atau Sistem Sejenis
+210	Beberapa sistem yang memiliki kemiripan fungsi dengan AmanAkses antara lain aplikasi pelaporan kekerasan umum seperti SIMFONI PPA milik Kementerian PPPA, serta berbagai platform chatbot konseling yang dikembangkan oleh lembaga swadaya masyarakat. Namun, sistem-sistem tersebut memiliki keterbatasan signifikan: tidak dirancang khusus untuk penyandang disabilitas, tidak menyediakan mekanisme dokumentasi bukti yang terenkripsi, tidak memiliki fitur consent-based sharing yang granular, dan tidak menerapkan prinsip trauma-informed design. AmanAkses mengisi celah ini dengan mengintegrasikan seluruh kebutuhan tersebut dalam satu alur kerja yang terpadu.
+211	Analisis Kebutuhan Pengguna
+212	Persona Pengguna
+214	Kebutuhan Fungsional
+216	Kebutuhan Non-Fungsional
+221	BAB III
+222	PEMANFAATAN AI DALAM PENGEMBANGAN SOLUSI
+224	AI Tools yang DIgunakan
+225	Proses Brainstorming Menggunakan AI
+226	Dokumentasi Prompt
+227	Evaluasi Hasil AI
+228	Validasi dan Revisi
+265	BAB IV
+266	PERANCANGAN SOLUSI
+268	Nama Produk
+269	AmanAkses
+270	Platform Digital Aksesibel untuk Memahami, Mendokumentasikan, dan Mencari Bantuan secara Aman bagi Penyandang Disabilitas
+271	Deskripsi Solusi
+272	AmanAkses adalah platform digital berbasis web/PWA yang dirancang khusus untuk penyandang disabilitas yang mengalami atau berisiko mengalami kekerasan seksual. Platform ini menyediakan ruang aman digital di mana pengguna dapat belajar tentang hak dan bentuk kekerasan, mencatat pengalaman secara terstruktur, menyimpan bukti dengan enkripsi, menyusun kronologi kejadian secara otomatis dengan bantuan AI, dan membagikan laporan awal hanya kepada pihak yang mereka percaya dengan persetujuan eksplisit.
+273	Nilai utama AmanAkses dirangkum dalam empat prinsip: Understand Safely (memahami dengan aman), Record Safely (mencatat dengan aman), Decide Safely (memutuskan dengan aman), dan Share Safely (berbagi dengan aman).
+274	Tujuan Produk
+275	AmanAkses bertujuan untuk memberikan akses yang setara bagi penyandang disabilitas terhadap informasi, dokumentasi, dan dukungan awal dalam situasi kekerasan seksual, dengan tetap menempatkan kendali sepenuhnya di tangan pengguna. Produk ini tidak menggantikan peran profesional, melainkan menjadi jembatan pertama yang aman sebelum pengguna memutuskan untuk mengambil langkah lebih lanjut.
+276	Fitur Utama
+277	AmanAkses terdiri dari sepuluh fitur utama yang saling terintegrasi dalam satu alur kerja yang kohesif.
+278	Jurnal Aman adalah editor catatan terenkripsi dengan fitur autosave, voice note, tagging emosional opsional, dan penyimpanan bertahap yang tidak memaksa pengguna menyelesaikan semua isian sekaligus.
+279	Brankas Bukti menyediakan penyimpanan file terenkripsi (foto, dokumen, audio, screenshot) dengan metadata otomatis, hash verifikasi, dan sistem label untuk memudahkan pencarian kembali.
+280	Kronologi Kejadian menggunakan AI untuk menyusun urutan kejadian dari catatan dan bukti yang dipilih pengguna berdasarkan waktu, lokasi, dan pihak terkait, dengan kemampuan edit manual.
+281	Pendamping Terpercaya memungkinkan pengguna menambahkan kontak pendamping, mengatur scope akses (ringkasan saja, kronologi, bukti tertentu), durasi akses, dan mencabut akses kapan saja.
+282	Consent Sharing memastikan setiap proses berbagi data ditampilkan dalam layar konfirmasi yang menjelaskan secara jelas siapa penerima dan data apa yang akan dibagikan.
+283	Laporan Awal menghasilkan dokumen PDF terstruktur berisi ringkasan kejadian, kronologi, daftar bukti, kebutuhan aksesibilitas, dan pilihan tindak lanjut yang dapat diekspor atau dibagikan.
+284	Safe Exit menyediakan tombol keluar cepat yang mengunci sesi dan mengalihkan ke halaman netral untuk melindungi privasi pengguna.
+285	Daftar Layanan Bantuan berisi direktori layanan yang dapat disaring berdasarkan wilayah, jenis bantuan, dan aksesibilitas layanan.
+286	Pengaturan Aksesibilitas memungkinkan pengguna mengaktifkan screen reader, kontras tinggi, ukuran teks, tombol besar, mode easy-read, dan bahasa isyarat sesuai kebutuhan.
+287	Workflow System
+288	Alur kerja sistem AmanAkses dirancang secara bertahap untuk mengurangi beban kognitif dan potensi pemicu trauma.
+289	Pengguna masuk ke sistem menggunakan PIN atau password, kemudian mengatur preferensi aksesibilitas sesuai kebutuhan. Dari dashboard utama, pengguna dapat memulai dari modul Pahami Kekerasan untuk mendapatkan pemahaman dasar, kemudian beralih ke Jurnal Aman untuk mencatat pengalaman, dilanjutkan dengan menyimpan bukti di Brankas Bukti. Sistem kemudian membantu menyusun Kronologi Kejadian secara otomatis dari data yang telah dimasukkan. Setelah pengguna merasa siap, mereka dapat memilih pendamping atau lembaga layanan, menentukan data yang ingin dibagikan, dan memberikan persetujuan eksplisit. Sistem kemudian menghasilkan Laporan Awal yang dapat diekspor dalam format PDF.
+290	Desain Antarmuka (UI/UX)
+291	Desain antarmuka AmanAkses mengacu pada prinsip WCAG 2.2 yang mencakup empat pilar utama: perceivable (konten dapat dirasakan oleh semua pengguna), operable (komponen UI dapat dioperasikan dengan keyboard maupun sentuh), understandable (informasi dan operasi mudah dipahami), dan robust (konten dapat diinterpretasikan oleh berbagai teknologi asistif).
+292	Secara visual, antarmuka menggunakan skema warna dengan rasio kontras minimum 4.5:1 untuk teks normal, ukuran font minimum 16px, dan tombol dengan ukuran minimum 44x44px sesuai standar aksesibilitas. Bahasa yang digunakan bersifat empatik, tidak menghakimi, dan konsisten menggunakan kalimat aktif yang pendek. Setiap elemen interaktif memiliki label ARIA yang jelas untuk mendukung screen reader. Tersedia pula mode gelap, mode kontras tinggi, dan mode easy-read yang dapat diaktifkan sesuai preferensi pengguna.
+294	Teknologi yang Digunakan
+321	BAB V
+322	IMPLEMENTASI PROTOTYPE
+324	Bentuk Prototype
+325	Prototype AmanAkses dikembangkan dalam bentuk aplikasi web berbasis Progressive Web App (PWA) yang dapat diakses melalui browser desktop maupun perangkat mobile. Prototype ini mencakup seluruh modul inti yang diperlukan untuk mendemonstrasikan alur nilai utama platform, yaitu dari memahami informasi dasar hingga menghasilkan laporan awal.
+326	Lingkungan Pengembangan
+327	Pengembangan prototype dilakukan menggunakan lingkungan sebagai berikut.
+328	Sistem Operasi: Windows 11 / macOS
+329	Code Editor: Visual Studio Code dengan ekstensi Cursor AI
+330	Runtime: Node.js v20 LTS
+331	Framework Frontend: Next.js 14 dengan App Router
+332	Framework Backend: NestJS
+333	Database Local: PostgreSQL via Docker
+334	Version Control: Git dengan GitHub
+335	Testing Aksesibilitas: axe DevTools, Lighthouse di Chrome DevTools
+336	Desain UI: Figma, Lovable
+337	Implementasi Fitur
+338	Fitur Jurnal Aman
+339	Modul Jurnal Aman diimplementasikan sebagai editor teks kaya dengan dukungan voice note melalui Web Speech API. Setiap entri disimpan secara otomatis (autosave) setiap 30 detik dan dienkripsi sebelum dikirim ke server menggunakan AES-256. Pengguna dapat menambahkan tag emosional opsional, menyimpan entri sebagai draft, atau mengunci entri dengan PIN tambahan. Antarmuka editor menggunakan komponen ARIA yang kompatibel dengan screen reader, dengan label yang jelas pada setiap tombol aksi.
+340	Fitur Kronologi Kejadian dengan AI
+341	Modul Kronologi Kejadian mengintegrasikan LLM API untuk mengekstraksi informasi temporal dari entri jurnal pengguna. Sistem mengirimkan teks entri yang telah dipilih pengguna ke API dengan prompt terstruktur yang meminta model untuk mengidentifikasi tanggal, waktu, lokasi, pihak yang terlibat, dan urutan kejadian. Hasil ekstraksi ditampilkan sebagai draft timeline yang dapat diedit, ditambahkan, atau dihapus oleh pengguna sebelum disimpan. Setiap output AI diberi label jelas sebagai "Draft - Perlu Ditinjau" untuk menghindari kesalahpahaman.
+342	Fitur Laporan Awal dengan Consent Sharing
+343	Modul Laporan Awal memungkinkan pengguna untuk memilih elemen-elemen yang ingin dimasukkan dalam laporan (ringkasan, kronologi, daftar bukti, kebutuhan aksesibilitas). Sistem kemudian menggunakan LLM API untuk menghasilkan draft ringkasan berbahasa natural berdasarkan data yang dipilih. Sebelum laporan dapat dibagikan, pengguna harus melalui layar konfirmasi yang menampilkan secara eksplisit nama penerima, data yang akan dibagikan, dan durasi akses. Tautan berbagi laporan memiliki batas waktu yang dapat dikonfigurasi dan dapat dicabut kapan saja.
+344	Tampilan Prototype
+345	Prototype AmanAkses memiliki tampilan yang bersih dan minimalis dengan navigasi sidebar yang konsisten di seluruh halaman. Dashboard utama menampilkan akses cepat ke semua modul utama beserta status ruang aman pengguna dan pesan dukungan. Setiap halaman modul menampilkan judul yang jelas, panduan langkah singkat, dan tombol aksi utama yang menonjol. Tersedia panel aksesibilitas yang dapat dibuka dari sudut kanan atas untuk mengubah preferensi tampilan kapan saja.
+346	(Tampilan detail prototype dapat dilihat pada mockup yang terlampir di Gambar 3 hingga Gambar 10)
+347	Alur Penggunaan Sistem
+348	Alur penggunaan sistem AmanAkses untuk skenario utama adalah sebagai berikut.
+349	Pengguna membuka AmanAkses dan masuk menggunakan PIN.
+350	Pengguna mengaktifkan preferensi aksesibilitas (misalnya: easy-read mode dan kontras tinggi).
+351	Pengguna membuka modul Pahami Kekerasan dan membaca atau mendengarkan materi tentang bentuk kekerasan dan hak korban.
+352	Pengguna membuat entri baru di Jurnal Aman, merekam voice note, dan menyimpan sebagai draft.
+353	Pengguna mengunggah beberapa screenshot percakapan ke Brankas Bukti dan menambahkan label.
+354	Pengguna membuka Kronologi Kejadian dan memilih entri jurnal serta bukti yang relevan untuk disusun oleh AI.
+355	Pengguna meninjau draft kronologi yang dihasilkan AI, mengedit beberapa bagian, dan menyimpannya.
+356	Pengguna memilih pendamping terpercaya dari kontak yang tersimpan dan mengatur scope akses (ringkasan dan kronologi saja).
+357	Pengguna membuat Laporan Awal, meninjau draft yang dihasilkan AI, dan mengekspor sebagai PDF.
+358	Pengguna menekan tombol Safe Exit untuk mengunci sesi dan keluar dengan aman.
+359	BAB VI
+360	VALIDASI DAN EVALUASI
+362	Metode Pengujian
+363	Hasil Pengujian Dasar
+364	Feedback pengguna (jika ada)
+365	Kelebihan Solusi
+366	Kelemahan Solusi
+367	Potensi Pengembangan
+403	BAB VII
+404	PENUTUP
+406	Kesimpulan
+407	AmanAkses merupakan platform digital aksesibel yang dikembangkan untuk menjawab kebutuhan nyata penyandang disabilitas dalam menghadapi situasi kekerasan seksual. Melalui integrasi prinsip aksesibilitas digital (WCAG 2.2), desain berbasis trauma, privacy by design, dan pemanfaatan AI yang bertanggung jawab, platform ini mampu menyediakan ruang aman digital dimana pengguna dapat memahami situasi mereka, mendokumentasikan pengalaman secara terstruktur, dan menentukan langkah bantuan secara mandiri tanpa tekanan.
+408	Proses pengembangan yang memanfaatkan AI sebagai partner kerja, mulai dari tahap brainstorming hingga implementasi, menunjukkan bahwa AI dapat memberikan percepatan yang signifikan dalam pengembangan solusi, asalkan digunakan dengan kritis, disertai validasi yang ketat, dan tidak menggantikan pemahaman mendalam tim terhadap masalah yang dihadapi pengguna.
+409	Prototype yang dihasilkan berhasil mendemonstrasikan alur nilai utama AmanAkses secara end-to-end, dari membaca materi edukasi hingga menghasilkan laporan awal yang siap dibagikan kepada pendamping. Meskipun masih terdapat beberapa aspek yang perlu disempurnakan, fondasi teknis dan desain yang dibangun cukup kuat untuk dikembangkan lebih lanjut.
+411	Saran
+412	Berdasarkan proses pengembangan dan evaluasi yang telah dilakukan, beberapa saran untuk pengembangan ke depan adalah sebagai berikut.
+413	Pertama, pengujian aksesibilitas sebaiknya melibatkan pengguna nyata penyandang disabilitas dari berbagai jenis disabilitas untuk mendapatkan feedback yang lebih akurat dan representatif.
+414	Kedua, implementasi enkripsi client-side perlu diprioritaskan sebelum platform diluncurkan ke publik, mengingat sensitivitas data yang dikelola.
+415	Ketiga, kolaborasi dengan Satgas PPKS/PPKPT di perguruan tinggi sebaiknya dibangun sejak awal pengembangan lanjutan untuk memastikan laporan awal yang dihasilkan sesuai dengan SOP yang berlaku.
+416	Keempat, fitur AI perlu terus dievaluasi secara berkala untuk memastikan output yang dihasilkan tetap akurat, empatik, dan tidak menambahkan informasi yang tidak berasal dari pengguna.
+417	Kelima, keberlanjutan platform ini sangat bergantung pada kepercayaan pengguna, sehingga transparansi tentang cara kerja sistem, kebijakan data, dan mekanisme audit perlu dikomunikasikan secara jelas dan aksesibel kepada seluruh pengguna.
+418	DAFTAR PUSTAKA
+462	LAMPIRAN
+464	Lampiran A Dokumentasi Prompt AI
+465	Lampiran B Link Presentasi Video dan PDF
+466	Lampiran C Link Video Demo
+467	Lampiran D Link Prototype
+468	Lampiran E Source Code
+
+=== TABLES ===
+TABLE 0: 9x2
+0 Persona || Kebutuhan Utama
+1 Pengguna dengan disabilitas netra/low vision || Informasi semantik, screen reader, navigasi keyboard, audio guidance, voice note, dan kontras tinggi.
+2 Pengguna Tuli atau hambatan pendengaran || Informasi berbasis teks, visual step-by-step, video bahasa isyarat, notifikasi non-audio, dan ringkasan tertulis.
+3 Pengguna dengan disabilitas intelektual atau kognitif || Bahasa sederhana, ikon yang jelas, pertanyaan bertahap, validasi ulang sebelum berbagi, dan easy-read mode.
+4 Pengguna dengan disabilitas fisik || Tombol besar, interaksi minim klik, dukungan keyboard, voice input, dan alur yang tidak membutuhkan gerakan rumit.
+5 Pengguna dengan disabilitas psikososial || Alur yang tidak memaksa, penyimpanan bertahap, afirmasi dukungan, pilihan jeda, safe exit, dan kendali penuh atas data.
+6 Pendamping terpercaya || Menerima ringkasan yang telah disetujui pengguna, memahami kebutuhan aksesibilitas, dan membantu menentukan langkah aman.
+7 Satgas/lembar layanan/bantuan hukum || Menerima laporan awal yang terstruktur, metadata, kebutuhan akomodasi, dan status persetujuan pengguna.
+8 Admin sistem lembaga || Mengelola konfigurasi layanan, daftar rujukan, kebijakan retensi, dan pengaturan keamanan tanpa mengakses isi brankas pribadi pengguna.
+TABLE 1: 11x3
+0 Kode || Fitur || Deskripsi
+1 F-01 || Profil Aksesibilitas || Pengguna dapat memilih preferensi screen reader, kontras tinggi, tombol besar, ukuran teks, bahasa sederhana, voice note, dan notifikasi.
+2 F-02 || Pahami Kekerasan || Sistem menyediakan materi edukasi tentang bentuk kekerasan, hak pengguna, pilihan bantuan, dan langkah aman dalam bahasa sederhana.
+3 F-03 || Jurnal Aman || Pengguna dapat mencatat pengalaman melalui teks, suara, atau media dengan autosave dan enkripsi.
+4 F-04 || Brankas Bukti || Pengguna dapat menyimpan foto, dokumen, screenshot, audio, dan file lain dengan enkripsi, label, dan metadata.
+5 F-05 || Kronologi Kejadian || Sistem membantu menyusun urutan kejadian dari catatan dan bukti berdasarkan waktu, lokasi, dan pihak terkait.
+6 F-06 || Pendamping Terpercaya || Pengguna dapat menambahkan kontak pendamping dan mengatur hak serta durasi akses.
+7 F-07 || Consent Sharing || Setiap proses berbagi laporan atau bukti memerlukan konfirmasi eksplisit dan catatan audit.
+8 F-08 || Laporan Awal || Sistem menghasilkan laporan awal dalam PDF berisi ringkasan, kronologi, bukti, dan pilihan tindak lanjut.
+9 F-09 || Safe Exit || Pengguna dapat keluar cepat, mengunci sesi, atau mengaktifkan mode diskret.
+10 F-10 || Daftar Layanan Bantuan || Sistem menyediakan direktori layanan yang dapat disaring berdasarkan lokasi, jenis bantuan, dan aksesibilitas.
+TABLE 2: 7x2
+0 Aspek || Kebutuhan
+1 Keamanan || Enkripsi at-rest dan in-transit, autentikasi PIN/password, MFA opsional, audit log, dan proteksi file bukti.
+2 Privasi || Minimisasi data, consent ledger, kontrol berbagi granular, opsi hapus data, dan mode diskret.
+3 Aksesibilitas || Mengacu pada prinsip WCAG 2.2: perceivable, operable, understandable, robust; kompatibel dengan screen reader dan navigasi keyboard.
+4 Usability || Alur ringkas, bahasa empatik, tidak menyalahkan korban, simpan bertahap, dan tidak memaksa pengisian semua informasi sekaligus.
+5 Reliabilitas || Autosave, backup terenkripsi, retry upload, dan recovery saat jaringan buruk.
+6 Etika AI || AI hanya sebagai asisten penyusunan dan penyederhanaan bahasa, tidak membuat vonis atau rekomendasi hukum final.
+TABLE 3: 10x2
+0 Lapisan || Teknologi
+1 Frontend Web/PWA || Next.js/React, TypeScript, Tailwind CSS, komponen ARIA
+2 Mobile Companion || React Native / PWA mobile-first
+3 Backend || NestJS / FastAPI, REST API, JWT, OpenAPI
+4 Database || PostgreSQL
+5 Object Storage || MinIO / S3-compatible
+6 Enkripsi || TLS, enkripsi at-rest, envelope encryption
+7 AI/NLP || Speech-to-text, text simplification, summarization, report drafting via LLM API
+8 Accessibility Testing || axe-core, Lighthouse, NVDA/VoiceOver
+9 DevOps || Docker Compose, GitHub Actions

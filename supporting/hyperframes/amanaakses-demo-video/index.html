@@ -1,0 +1,1300 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+    <style>
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("capture/assets/fonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_qU7NSg.ttf");
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("capture/assets/fonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_m07NSg.ttf");
+        font-weight: 500;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("capture/assets/fonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_d0nNSg.ttf");
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("capture/assets/fonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_TknNSg.ttf");
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "Plus Jakarta Sans";
+        src: url("capture/assets/fonts/LDIbaomQNQcsA88c7O9yZ4KMCoOg4IA6-91aHEjcWuA_KUnNSg.ttf");
+        font-weight: 800 900;
+        font-style: normal;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        width: 1920px;
+        height: 1080px;
+        margin: 0;
+        overflow: hidden;
+        color: #0f172a;
+        background: #f4fbf9;
+        font-family: "Plus Jakarta Sans", sans-serif;
+      }
+
+      body {
+        font-synthesis: none;
+        text-rendering: geometricPrecision;
+      }
+
+      .mono {
+        font-family: "IBM Plex Mono", monospace;
+        font-variant-numeric: tabular-nums;
+      }
+
+      #root {
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: #f4fbf9;
+      }
+
+      .scene {
+        position: absolute;
+        inset: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background-color: #f4fbf9;
+      }
+
+      .scene:not(#scene-1) {
+        opacity: 0;
+      }
+
+      .scene-content {
+        position: relative;
+        z-index: 4;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 74px 92px 82px;
+        gap: 28px;
+      }
+
+      .grid-bg {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+        opacity: 0.5;
+        background-image:
+          linear-gradient(rgba(13, 148, 136, 0.075) 1px, rgba(13, 148, 136, 0) 1px),
+          linear-gradient(90deg, rgba(13, 148, 136, 0.075) 1px, rgba(13, 148, 136, 0) 1px);
+        background-size: 48px 48px;
+      }
+
+      .orb {
+        position: absolute;
+        z-index: 1;
+        border-radius: 999px;
+        filter: blur(4px);
+        opacity: 0.72;
+      }
+
+      .orb.teal {
+        width: 620px;
+        height: 620px;
+        right: -170px;
+        top: -230px;
+        background: radial-gradient(circle, rgba(153, 246, 228, 0.86), rgba(153, 246, 228, 0));
+      }
+
+      .orb.violet {
+        width: 540px;
+        height: 540px;
+        left: 430px;
+        bottom: -280px;
+        background: radial-gradient(circle, rgba(221, 214, 254, 0.72), rgba(221, 214, 254, 0));
+      }
+
+      .topline {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 54px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-size: 28px;
+        font-weight: 800;
+        letter-spacing: -0.035em;
+      }
+
+      .brand-mark {
+        display: grid;
+        width: 50px;
+        height: 50px;
+        place-items: center;
+        border-radius: 18px;
+        color: #ffffff;
+        background: #0f766e;
+        box-shadow: 0 14px 34px rgba(15, 118, 110, 0.24);
+      }
+
+      .brand-mark svg {
+        width: 27px;
+        height: 27px;
+      }
+
+      .section-label,
+      .route-label {
+        display: inline-flex;
+        align-items: center;
+        width: fit-content;
+        min-height: 38px;
+        padding: 0 16px;
+        border: 1px solid #99f6e4;
+        border-radius: 999px;
+        color: #0f766e;
+        background: rgba(255, 255, 255, 0.85);
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+      }
+
+      .route-label {
+        color: #475569;
+        border-color: #dbe7e4;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 16px;
+        letter-spacing: 0;
+      }
+
+      .headline {
+        max-width: 1080px;
+        margin: 0;
+        font-size: 86px;
+        font-weight: 900;
+        line-height: 0.98;
+        letter-spacing: -0.055em;
+      }
+
+      .headline.large {
+        font-size: 112px;
+      }
+
+      .headline .teal {
+        color: #0f766e;
+      }
+
+      .headline .violet {
+        color: #7c3aed;
+      }
+
+      .lead {
+        max-width: 990px;
+        margin: 0;
+        color: #475569;
+        font-size: 31px;
+        font-weight: 500;
+        line-height: 1.48;
+      }
+
+      .browser-frame {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #cfe5e0;
+        border-radius: 32px;
+        background: #ffffff;
+        box-shadow: 0 30px 80px rgba(15, 23, 42, 0.14);
+      }
+
+      .browser-bar {
+        display: flex;
+        align-items: center;
+        height: 48px;
+        padding: 0 22px;
+        gap: 9px;
+        border-bottom: 1px solid #e2e8f0;
+        background: #ffffff;
+      }
+
+      .browser-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 999px;
+        background: #d6e5e2;
+      }
+
+      .browser-route {
+        margin-left: 16px;
+        color: #64748b;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 14px;
+      }
+
+      .browser-frame img {
+        display: block;
+        width: 100%;
+        height: calc(100% - 48px);
+        object-fit: cover;
+        object-position: top center;
+      }
+
+      .caption {
+        position: absolute;
+        z-index: 12;
+        left: 50%;
+        bottom: 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: min(1540px, calc(100% - 180px));
+        min-height: 64px;
+        padding: 12px 30px;
+        transform: translateX(-50%);
+        border: 1px solid rgba(15, 118, 110, 0.22);
+        border-radius: 22px;
+        color: #0f172a;
+        background: rgba(255, 255, 255, 0.94);
+        box-shadow: 0 18px 48px rgba(15, 23, 42, 0.12);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1.3;
+        text-align: center;
+      }
+
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        min-height: 48px;
+        padding: 0 20px;
+        border: 1px solid #99f6e4;
+        border-radius: 999px;
+        color: #0f766e;
+        background: #ffffff;
+        font-size: 20px;
+        font-weight: 800;
+      }
+
+      .pill.violet {
+        color: #6d28d9;
+        border-color: #ddd6fe;
+        background: #f5f3ff;
+      }
+
+      .pill.rose {
+        color: #be123c;
+        border-color: #fecdd3;
+        background: #fff1f2;
+      }
+
+      .scene-1-layout {
+        display: grid;
+        flex: 1;
+        grid-template-columns: 0.92fr 1.08fr;
+        align-items: center;
+        gap: 62px;
+      }
+
+      #scene-1 .copy {
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+      }
+
+      #scene-1 .browser-frame {
+        width: 980px;
+        height: 700px;
+        transform: rotate(1.2deg);
+      }
+
+      .strike-wrap {
+        position: relative;
+        width: fit-content;
+      }
+
+      .strike-line {
+        position: absolute;
+        left: -8px;
+        top: 51%;
+        width: calc(100% + 16px);
+        height: 8px;
+        border-radius: 99px;
+        background: #e11d48;
+        transform-origin: left center;
+      }
+
+      .scene-2-layout {
+        display: grid;
+        flex: 1;
+        min-height: 0;
+        grid-template-columns: 1.28fr 0.72fr;
+        gap: 34px;
+      }
+
+      #scene-2 .main-shot {
+        height: 590px;
+      }
+
+      .side-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+      }
+
+      .mini-shot {
+        height: 283px;
+      }
+
+      .mini-shot img {
+        object-position: top left;
+      }
+
+      .scene-3-layout {
+        position: relative;
+        display: grid;
+        flex: 1;
+        min-height: 0;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        gap: 28px;
+      }
+
+      .stack-shot {
+        height: 610px;
+      }
+
+      .stack-shot:nth-child(1) {
+        transform: translateY(24px) rotate(-2deg);
+      }
+
+      .stack-shot:nth-child(2) {
+        z-index: 2;
+        transform: translateY(-22px);
+      }
+
+      .stack-shot:nth-child(3) {
+        transform: translateY(34px) rotate(2deg);
+      }
+
+      .flow-rail {
+        position: absolute;
+        z-index: 7;
+        left: 155px;
+        right: 155px;
+        bottom: 48px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+        padding: 20px 28px;
+        border: 1px solid #b8e4dc;
+        border-radius: 26px;
+        background: rgba(255, 255, 255, 0.96);
+        box-shadow: 0 16px 40px rgba(15, 23, 42, 0.12);
+      }
+
+      .flow-step {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        color: #475569;
+        font-size: 21px;
+        font-weight: 800;
+      }
+
+      .flow-step::after {
+        position: absolute;
+        top: 50%;
+        right: -34px;
+        width: 68px;
+        height: 3px;
+        content: "";
+        background: #99f6e4;
+      }
+
+      .flow-step:last-child::after {
+        display: none;
+      }
+
+      .step-num {
+        display: grid;
+        width: 34px;
+        height: 34px;
+        place-items: center;
+        border-radius: 999px;
+        color: #ffffff;
+        background: #0f766e;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 16px;
+      }
+
+      .scene-4-layout {
+        display: grid;
+        flex: 1;
+        min-height: 0;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 38px;
+      }
+
+      #scene-4 .browser-frame {
+        height: 640px;
+      }
+
+      .contract-card {
+        display: flex;
+        flex-direction: column;
+        min-height: 640px;
+        padding: 36px;
+        gap: 24px;
+        border: 1px solid #ddd6fe;
+        border-radius: 32px;
+        background: #f5f3ff;
+        box-shadow: 0 24px 62px rgba(76, 29, 149, 0.1);
+      }
+
+      .contract-card h3 {
+        margin: 0;
+        color: #4c1d95;
+        font-size: 38px;
+        line-height: 1.12;
+        letter-spacing: -0.035em;
+      }
+
+      .json-box {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px;
+        gap: 16px;
+        border: 1px solid #c4b5fd;
+        border-radius: 22px;
+        color: #312e81;
+        background: #ffffff;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 22px;
+        line-height: 1.55;
+      }
+
+      .json-line {
+        display: flex;
+        gap: 14px;
+      }
+
+      .json-key {
+        min-width: 210px;
+        color: #7c3aed;
+        font-weight: 700;
+      }
+
+      .json-value {
+        color: #334155;
+      }
+
+      .scene-5-layout {
+        display: grid;
+        flex: 1;
+        min-height: 0;
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: 38px;
+      }
+
+      #scene-5 .review-shot {
+        height: 650px;
+      }
+
+      .review-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 38px;
+        gap: 22px;
+        border: 1px solid #cfe5e0;
+        border-radius: 32px;
+        background: #ffffff;
+        box-shadow: 0 24px 62px rgba(15, 23, 42, 0.1);
+      }
+
+      .review-panel h3 {
+        margin: 0;
+        font-size: 42px;
+        line-height: 1.08;
+        letter-spacing: -0.04em;
+      }
+
+      .decision {
+        display: flex;
+        align-items: center;
+        min-height: 82px;
+        padding: 0 26px;
+        gap: 18px;
+        border-radius: 22px;
+        font-size: 24px;
+        font-weight: 800;
+      }
+
+      .decision span {
+        display: grid;
+        width: 44px;
+        height: 44px;
+        place-items: center;
+        border-radius: 999px;
+        color: #ffffff;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 20px;
+      }
+
+      .decision.edit {
+        color: #5b21b6;
+        background: #f5f3ff;
+      }
+
+      .decision.edit span {
+        background: #7c3aed;
+      }
+
+      .decision.accept {
+        color: #0f766e;
+        background: #ecfdf5;
+      }
+
+      .decision.accept span {
+        background: #0f766e;
+      }
+
+      .decision.reject {
+        color: #be123c;
+        background: #fff1f2;
+      }
+
+      .decision.reject span {
+        background: #e11d48;
+      }
+
+      .fallback-note {
+        padding: 22px 24px;
+        border: 1px solid #fde68a;
+        border-radius: 22px;
+        color: #92400e;
+        background: #fffbeb;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 1.45;
+      }
+
+      .scene-6-layout {
+        display: grid;
+        flex: 1;
+        min-height: 0;
+        grid-template-columns: 0.72fr 1.28fr;
+        gap: 40px;
+      }
+
+      .boundary-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 42px;
+        gap: 28px;
+        border: 1px solid #b8e4dc;
+        border-radius: 32px;
+        background: #ffffff;
+        box-shadow: 0 24px 62px rgba(15, 23, 42, 0.1);
+      }
+
+      .boundary-card h3 {
+        margin: 0;
+        font-size: 42px;
+        line-height: 1.08;
+        letter-spacing: -0.04em;
+      }
+
+      .boundary-node {
+        display: flex;
+        align-items: center;
+        min-height: 78px;
+        padding: 0 24px;
+        gap: 18px;
+        border: 1px solid #cfe5e0;
+        border-radius: 22px;
+        color: #0f172a;
+        background: #f4fbf9;
+        font-size: 22px;
+        font-weight: 800;
+      }
+
+      .boundary-node .mono {
+        color: #0f766e;
+        font-size: 19px;
+      }
+
+      .boundary-arrow {
+        align-self: center;
+        color: #0d9488;
+        font-size: 32px;
+        font-weight: 900;
+      }
+
+      .server-lock {
+        border-color: #c4b5fd;
+        color: #4c1d95;
+        background: #f5f3ff;
+      }
+
+      #scene-6 .report-shot {
+        height: 650px;
+      }
+
+      #scene-7 {
+        color: #ffffff;
+        background-color: #063f3b;
+      }
+
+      #scene-7 .grid-bg {
+        opacity: 0.18;
+        background-image:
+          linear-gradient(rgba(153, 246, 228, 0.15) 1px, rgba(153, 246, 228, 0) 1px),
+          linear-gradient(90deg, rgba(153, 246, 228, 0.15) 1px, rgba(153, 246, 228, 0) 1px);
+      }
+
+      #scene-7 .brand-mark {
+        color: #063f3b;
+        background: #99f6e4;
+      }
+
+      #scene-7 .section-label {
+        color: #99f6e4;
+        border-color: rgba(153, 246, 228, 0.42);
+        background: rgba(6, 95, 88, 0.5);
+      }
+
+      #scene-7 .headline {
+        color: #ffffff;
+      }
+
+      .validation-grid {
+        display: grid;
+        flex: 1;
+        min-height: 0;
+        grid-template-columns: 1.15fr 0.85fr;
+        gap: 34px;
+      }
+
+      .validation-hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 48px;
+        gap: 22px;
+        border: 1px solid rgba(153, 246, 228, 0.22);
+        border-radius: 34px;
+        background: rgba(6, 95, 88, 0.58);
+      }
+
+      .validation-number {
+        color: #99f6e4;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 176px;
+        font-weight: 700;
+        line-height: 0.9;
+        letter-spacing: -0.08em;
+      }
+
+      .validation-hero p {
+        max-width: 710px;
+        margin: 0;
+        color: #ccfbf1;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.42;
+      }
+
+      .progress-track {
+        width: 100%;
+        height: 14px;
+        overflow: hidden;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.13);
+      }
+
+      .progress-fill {
+        width: 100%;
+        height: 100%;
+        border-radius: 999px;
+        background: #99f6e4;
+        transform-origin: left center;
+      }
+
+      .validation-stack {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .validation-card {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: space-between;
+        padding: 26px 30px;
+        border: 1px solid rgba(221, 214, 254, 0.24);
+        border-radius: 28px;
+        background: rgba(76, 29, 149, 0.22);
+      }
+
+      .validation-card strong {
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 52px;
+        line-height: 1;
+      }
+
+      .validation-card span {
+        max-width: 330px;
+        color: #ede9fe;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.35;
+        text-align: right;
+      }
+
+      #scene-7 .caption {
+        color: #ecfdf5;
+        border-color: rgba(153, 246, 228, 0.25);
+        background: rgba(5, 46, 43, 0.94);
+      }
+
+      #scene-8 {
+        background-color: #f4fbf9;
+      }
+
+      .final-bg {
+        position: absolute;
+        inset: -25px;
+        z-index: 0;
+        background: url("assets/screens/landing.png") center / cover no-repeat;
+        filter: blur(3px) saturate(0.72);
+        opacity: 0.2;
+      }
+
+      .final-wash {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background: rgba(244, 251, 249, 0.85);
+      }
+
+      .final-content {
+        position: relative;
+        z-index: 4;
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        max-width: 1500px;
+        gap: 28px;
+      }
+
+      .thesis {
+        margin: 0;
+        font-size: 114px;
+        font-weight: 900;
+        line-height: 0.98;
+        letter-spacing: -0.06em;
+      }
+
+      .thesis-small {
+        color: #0f766e;
+      }
+
+      .thesis-large {
+        color: #0f172a;
+      }
+
+      .final-note {
+        max-width: 1050px;
+        margin: 8px 0 0;
+        color: #475569;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.45;
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      id="root"
+      data-composition-id="main"
+      data-start="0"
+      data-duration="249"
+      data-width="1920"
+      data-height="1080"
+    >
+      <section id="scene-1" class="scene">
+        <div class="grid-bg"></div>
+        <div class="orb teal" data-layout-ignore></div>
+        <div class="orb violet" data-layout-ignore></div>
+        <div class="scene-content">
+          <div class="topline">
+            <div class="brand scene-1-brand">
+              <span class="brand-mark">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 3 5 6v5c0 4.8 2.8 8.2 7 10 4.2-1.8 7-5.2 7-10V6l-7-3Z"></path>
+                  <path d="m9.2 12 1.8 1.8 3.9-4"></path>
+                </svg>
+              </span>
+              AmanAkses
+            </div>
+            <span class="route-label scene-1-route">AI FOR REAL IMPACT 2026</span>
+          </div>
+          <div class="scene-1-layout">
+            <div class="copy">
+              <span class="section-label scene-1-label">MASALAH NYATA</span>
+              <h1 class="headline large scene-1-title">
+                Pelaporan bukan
+                <span class="strike-wrap">tes ingatan<span class="strike-line"></span></span>.
+              </h1>
+              <p class="lead scene-1-lead">
+                Teknologi seharusnya membantu menata pengalaman, tanpa mengambil kendali dari penggunanya.
+              </p>
+            </div>
+            <div class="browser-frame scene-1-shot" data-layout-allow-overflow>
+              <div class="browser-bar">
+                <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+                <span class="browser-route">amanaakses / ruang aman</span>
+              </div>
+              <img src="assets/screens/landing.png" alt="Landing page AmanAkses" />
+            </div>
+          </div>
+        </div>
+        <div class="caption scene-1-caption">
+          Hambatan bahasa, navigasi, komunikasi, dan beban kognitif tidak boleh membuat akses bantuan semakin berat.
+        </div>
+      </section>
+
+      <section id="scene-2" class="scene">
+        <div class="grid-bg"></div>
+        <div class="orb teal" data-layout-ignore></div>
+        <div class="scene-content">
+          <div class="topline">
+            <div class="brand scene-2-brand"><span class="brand-mark">01</span>AmanAkses</div>
+            <span class="route-label scene-2-route">/app/dashboard</span>
+          </div>
+          <div>
+            <span class="section-label scene-2-label">SATU RUANG, BANYAK JALUR</span>
+            <h2 class="headline scene-2-title">Belajar, mencatat, menata, dan meninjau.</h2>
+          </div>
+          <div class="scene-2-layout">
+            <div class="browser-frame main-shot scene-2-main" data-layout-allow-overflow>
+              <div class="browser-bar">
+                <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+                <span class="browser-route">dashboard</span>
+              </div>
+              <img src="assets/screens/dashboard.png" alt="Dashboard AmanAkses" />
+            </div>
+            <div class="side-stack">
+              <div class="browser-frame mini-shot scene-2-access" data-layout-allow-overflow>
+                <div class="browser-bar"><span class="browser-route">aksesibilitas</span></div>
+                <img src="assets/screens/accessibility.png" alt="Pengaturan aksesibilitas" />
+              </div>
+              <div class="browser-frame mini-shot scene-2-exit" data-layout-allow-overflow>
+                <div class="browser-bar"><span class="browser-route">safe exit</span></div>
+                <img src="assets/screens/safe-exit.png" alt="Halaman keluar cepat" />
+              </div>
+            </div>
+          </div>
+          <div class="pill-row scene-2-pills">
+            <span class="pill">Mode discreet</span>
+            <span class="pill">Preferensi akses</span>
+            <span class="pill rose">Keluar cepat</span>
+            <span class="pill violet">Data sintetis</span>
+          </div>
+        </div>
+        <div class="caption scene-2-caption">
+          Pengguna memilih jalurnya sendiri dan dapat keluar menuju halaman netral kapan saja.
+        </div>
+      </section>
+
+      <section id="scene-3" class="scene">
+        <div class="grid-bg"></div>
+        <div class="orb violet" data-layout-ignore></div>
+        <div class="scene-content">
+          <div class="topline">
+            <div class="brand scene-3-brand"><span class="brand-mark">02</span>Alur Aman</div>
+            <span class="route-label scene-3-route">PAHAMI -> CATAT -> PILIH -> TINJAU</span>
+          </div>
+          <div>
+            <span class="section-label scene-3-label">TIDAK LANGSUNG MEMAKSA LAPORAN</span>
+            <h2 class="headline scene-3-title">Memahami dulu. Mencatat bertahap.</h2>
+          </div>
+          <div class="scene-3-layout">
+            <div class="browser-frame stack-shot scene-3-shot-1" data-layout-allow-overflow>
+              <div class="browser-bar"><span class="browser-route">pahami kekerasan</span></div>
+              <img src="assets/screens/learning.png" alt="Halaman belajar" />
+            </div>
+            <div class="browser-frame stack-shot scene-3-shot-2" data-layout-allow-overflow>
+              <div class="browser-bar"><span class="browser-route">jurnal aman</span></div>
+              <img src="assets/screens/journal.png" alt="Halaman jurnal" />
+            </div>
+            <div class="browser-frame stack-shot scene-3-shot-3" data-layout-allow-overflow>
+              <div class="browser-bar"><span class="browser-route">dashboard</span></div>
+              <img src="assets/screens/dashboard-flow.png" alt="Dashboard workflow" />
+            </div>
+            <div class="flow-rail scene-3-rail">
+              <div class="flow-step"><span class="step-num">1</span>Pahami</div>
+              <div class="flow-step"><span class="step-num">2</span>Catat</div>
+              <div class="flow-step"><span class="step-num">3</span>Pilih</div>
+              <div class="flow-step"><span class="step-num">4</span>Tinjau</div>
+            </div>
+          </div>
+        </div>
+        <div class="caption scene-3-caption">
+          Hanya catatan yang dipilih secara eksplisit yang dapat masuk ke tahap berikutnya.
+        </div>
+      </section>
+
+      <section id="scene-4" class="scene">
+        <div class="grid-bg"></div>
+        <div class="orb teal" data-layout-ignore></div>
+        <div class="scene-content">
+          <div class="topline">
+            <div class="brand scene-4-brand"><span class="brand-mark">03</span>Safe Timeline Assistant</div>
+            <span class="route-label scene-4-route">/api/timeline</span>
+          </div>
+          <div>
+            <span class="section-label scene-4-label">AI DENGAN BATAS EKSPLISIT</span>
+            <h2 class="headline scene-4-title">AI bekerja di ruang yang dibatasi.</h2>
+          </div>
+          <div class="scene-4-layout">
+            <div class="browser-frame scene-4-shot" data-layout-allow-overflow>
+              <div class="browser-bar"><span class="browser-route">pilih catatan sintetis</span></div>
+              <img src="assets/screens/timeline.png" alt="Safe Timeline Assistant sebelum proses" />
+            </div>
+            <div class="contract-card scene-4-contract">
+              <h3>Structured output contract</h3>
+              <div class="json-box">
+                <div class="json-line json-1"><span class="json-key">sourceNoteIds</span><span class="json-value">wajib valid</span></div>
+                <div class="json-line json-2"><span class="json-key">date / time / location</span><span class="json-value">nullable</span></div>
+                <div class="json-line json-3"><span class="json-key">uncertainty</span><span class="json-value">explicit | ambiguous | missing</span></div>
+                <div class="json-line json-4"><span class="json-key">requiresReview</span><span class="json-value">true</span></div>
+              </div>
+              <div class="pill-row scene-4-pills">
+                <span class="pill violet">Tidak menentukan kebenaran</span>
+                <span class="pill violet">Tidak membuat diagnosis</span>
+                <span class="pill violet">Tidak menyimpulkan niat</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="caption scene-4-caption">
+          Informasi yang tidak tersedia tetap kosong atau ditandai tidak pasti, bukan ditebak.
+        </div>
+      </section>
+
+      <section id="scene-5" class="scene">
+        <div class="grid-bg"></div>
+        <div class="orb violet" data-layout-ignore></div>
+        <div class="scene-content">
+          <div class="topline">
+            <div class="brand scene-5-brand"><span class="brand-mark">04</span>Human Review Gate</div>
+            <span class="route-label scene-5-route">DRAFT AI, BELUM DIVERIFIKASI</span>
+          </div>
+          <div>
+            <span class="section-label scene-5-label">KEPUTUSAN TETAP PADA PENGGUNA</span>
+            <h2 class="headline scene-5-title">Setiap peristiwa harus ditinjau manusia.</h2>
+          </div>
+          <div class="scene-5-layout">
+            <div class="browser-frame review-shot scene-5-shot" data-layout-allow-overflow>
+              <div class="browser-bar"><span class="browser-route">sumber dan keputusan per event</span></div>
+              <img src="assets/screens/timeline-review.png" alt="Review hasil timeline" />
+            </div>
+            <div class="review-panel scene-5-panel">
+              <h3>Buka sumber. Periksa. Putuskan.</h3>
+              <div class="decision edit decision-1"><span>01</span>Edit isi dan ketidakpastian</div>
+              <div class="decision accept decision-2"><span>02</span>Terima ke laporan</div>
+              <div class="decision reject decision-3"><span>03</span>Tolak peristiwa</div>
+              <div class="fallback-note scene-5-fallback">
+                Fallback deterministik menjaga demo tetap berjalan saat Gemini atau jaringan tidak tersedia.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="caption scene-5-caption">
+          Tidak ada hasil yang otomatis masuk ke laporan.
+        </div>
+      </section>
+
+      <section id="scene-6" class="scene">
+        <div class="grid-bg"></div>
+        <div class="orb teal" data-layout-ignore></div>
+        <div class="scene-content">
+          <div class="topline">
+            <div class="brand scene-6-brand"><span class="brand-mark">05</span>Batas Data</div>
+            <span class="route-label scene-6-route">GEMINI_API_KEY: SERVER-SIDE</span>
+          </div>
+          <div>
+            <span class="section-label scene-6-label">PRATINJAU, BUKAN KEPUTUSAN</span>
+            <h2 class="headline scene-6-title">Laporan awal untuk ditinjau manusia.</h2>
+          </div>
+          <div class="scene-6-layout">
+            <div class="boundary-card scene-6-boundary">
+              <h3>Data boundary</h3>
+              <div class="boundary-node boundary-1">Browser <span class="mono">catatan terpilih</span></div>
+              <div class="boundary-arrow arrow-1">↓</div>
+              <div class="boundary-node boundary-2"><span class="mono">POST /api/timeline</span></div>
+              <div class="boundary-arrow arrow-2">↓</div>
+              <div class="boundary-node server-lock boundary-3">Serverless <span class="mono">GEMINI_API_KEY</span></div>
+              <div class="pill-row scene-6-pills">
+                <span class="pill">Kunci tidak masuk browser</span>
+                <span class="pill">Tidak ada data nyata</span>
+              </div>
+            </div>
+            <div class="browser-frame report-shot scene-6-shot" data-layout-allow-overflow>
+              <div class="browser-bar"><span class="browser-route">laporan awal AmanAkses</span></div>
+              <img src="assets/screens/report.png" alt="Pratinjau laporan awal" />
+            </div>
+          </div>
+        </div>
+        <div class="caption scene-6-caption">
+          Dokumen ini bukan putusan hukum, diagnosis, atau penentu kebenaran.
+        </div>
+      </section>
+
+      <section id="scene-7" class="scene">
+        <div class="grid-bg"></div>
+        <div class="scene-content">
+          <div class="topline">
+            <div class="brand scene-7-brand"><span class="brand-mark">06</span>Validasi</div>
+            <span class="route-label scene-7-route">SYNTHETIC FIXTURES</span>
+          </div>
+          <div>
+            <span class="section-label scene-7-label">BUKTI TEKNIS YANG DAPAT DIAUDIT</span>
+            <h2 class="headline scene-7-title">Diuji dengan skenario sintetis.</h2>
+          </div>
+          <div class="validation-grid">
+            <div class="validation-hero scene-7-hero">
+              <div class="validation-number scene-7-number">10/10</div>
+              <p>Skenario utama lulus: field hilang, ambiguitas waktu, lokasi kosong, alias, dan catatan netral.</p>
+              <div class="progress-track"><div class="progress-fill scene-7-progress"></div></div>
+            </div>
+            <div class="validation-stack">
+              <div class="validation-card validation-1"><strong>+1</strong><span>negative guard menolak sumber tidak valid</span></div>
+              <div class="validation-card validation-2"><strong>BUILD</strong><span>production build lulus</span></div>
+              <div class="validation-card validation-3"><strong>LINT</strong><span>pemeriksaan statis lulus</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="caption scene-7-caption">
+          Validasi membuktikan kontrak data dan fallback, bukan ketepatan AI pada kasus nyata.
+        </div>
+      </section>
+
+      <section id="scene-8" class="scene">
+        <div class="final-bg" data-layout-ignore></div>
+        <div class="final-wash"></div>
+        <div class="scene-content">
+          <div class="topline">
+            <div class="brand scene-8-brand">
+              <span class="brand-mark">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 3 5 6v5c0 4.8 2.8 8.2 7 10 4.2-1.8 7-5.2 7-10V6l-7-3Z"></path>
+                  <path d="m9.2 12 1.8 1.8 3.9-4"></path>
+                </svg>
+              </span>
+              AmanAkses
+            </div>
+            <span class="route-label scene-8-route">PROTOTYPE · JUNI 2026</span>
+          </div>
+          <div class="final-content">
+            <span class="section-label scene-8-label">PRINSIP UTAMA</span>
+            <p class="thesis thesis-small scene-8-line-1">AI membantu menata.</p>
+            <p class="thesis thesis-large scene-8-line-2">Manusia tetap menentukan.</p>
+            <p class="final-note scene-8-note">
+              Langkah berikutnya: co-design, peer testing, audit aksesibilitas mendalam, dan evaluasi privasi sebelum pilot terbatas.
+            </p>
+          </div>
+        </div>
+        <div class="caption scene-8-caption">
+          AmanAkses belum menggantikan pendamping profesional atau layanan resmi.
+        </div>
+      </section>
+
+      <audio id="audio-1" data-start="0" data-duration="28.056" data-track-index="20" src="audio/scene-01.mp3" data-volume="1"></audio>
+      <audio id="audio-2" data-start="28.056" data-duration="27.840" data-track-index="20" src="audio/scene-02.mp3" data-volume="1"></audio>
+      <audio id="audio-3" data-start="55.896" data-duration="29.208" data-track-index="20" src="audio/scene-03.mp3" data-volume="1"></audio>
+      <audio id="audio-4" data-start="85.104" data-duration="37.968" data-track-index="20" src="audio/scene-04.mp3" data-volume="1"></audio>
+      <audio id="audio-5" data-start="123.072" data-duration="32.712" data-track-index="20" src="audio/scene-05.mp3" data-volume="1"></audio>
+      <audio id="audio-6" data-start="155.784" data-duration="30.024" data-track-index="20" src="audio/scene-06.mp3" data-volume="1"></audio>
+      <audio id="audio-7" data-start="185.808" data-duration="32.544" data-track-index="20" src="audio/scene-07.mp3" data-volume="1"></audio>
+      <audio id="audio-8" data-start="218.352" data-duration="27.576" data-track-index="20" src="audio/scene-08.mp3" data-volume="1"></audio>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      var tl = gsap.timeline({ paused: true });
+
+      function enter(selector, vars, time) {
+        tl.from(selector, vars, time);
+      }
+
+      function pushTransition(oldScene, newScene, time, direction) {
+        var distance = direction === "left" ? -220 : 220;
+        tl.to(oldScene, { x: distance, opacity: 0, duration: 0.55, ease: "power3.inOut" }, time);
+        tl.fromTo(
+          newScene,
+          { x: -distance, opacity: 0 },
+          { x: 0, opacity: 1, duration: 0.55, ease: "power3.inOut" },
+          time
+        );
+      }
+
+      function blurTransition(oldScene, newScene, time) {
+        tl.to(oldScene, { opacity: 0, filter: "blur(18px)", duration: 0.62, ease: "sine.inOut" }, time);
+        tl.fromTo(
+          newScene,
+          { opacity: 0, filter: "blur(18px)", scale: 1.025 },
+          { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.62, ease: "sine.inOut" },
+          time
+        );
+      }
+
+      enter(".scene-1-brand", { x: -44, opacity: 0, duration: 0.72, ease: "expo.out" }, 0.2);
+      enter(".scene-1-route", { opacity: 0, scale: 0.9, duration: 0.52, ease: "back.out(1.4)" }, 0.38);
+      enter(".scene-1-label", { y: 28, opacity: 0, duration: 0.55, ease: "power2.out" }, 0.62);
+      enter(".scene-1-title", { x: -70, opacity: 0, duration: 0.9, ease: "expo.out" }, 0.82);
+      enter(".scene-1-lead", { y: 34, opacity: 0, duration: 0.7, ease: "power3.out" }, 1.16);
+      enter(".scene-1-shot", { x: 130, rotation: 4, opacity: 0, duration: 1.05, ease: "expo.out" }, 0.66);
+      enter(".scene-1-caption", { y: 40, opacity: 0, duration: 0.55, ease: "back.out(1.25)" }, 1.68);
+      tl.from(".strike-line", { scaleX: 0, duration: 0.7, ease: "power4.out" }, 2.25);
+      tl.to(".scene-1-shot", { y: -18, rotation: 0.4, duration: 25, ease: "sine.inOut" }, 2.2);
+
+      pushTransition("#scene-1", "#scene-2", 27.45, "left");
+      enter(".scene-2-brand", { x: -42, opacity: 0, duration: 0.55, ease: "expo.out" }, 27.78);
+      enter(".scene-2-route", { x: 44, opacity: 0, duration: 0.45, ease: "power3.out" }, 27.86);
+      enter(".scene-2-label", { y: 24, opacity: 0, duration: 0.45, ease: "power2.out" }, 28.02);
+      enter(".scene-2-title", { y: 54, opacity: 0, duration: 0.7, ease: "expo.out" }, 28.18);
+      enter(".scene-2-main", { x: -90, opacity: 0, duration: 0.8, ease: "power4.out" }, 28.45);
+      enter(".scene-2-access", { x: 90, opacity: 0, duration: 0.64, ease: "back.out(1.25)" }, 28.72);
+      enter(".scene-2-exit", { x: 110, opacity: 0, duration: 0.68, ease: "power3.out" }, 28.92);
+      enter(".scene-2-pills .pill", { y: 24, opacity: 0, duration: 0.42, stagger: 0.09, ease: "power2.out" }, 29.12);
+      enter(".scene-2-caption", { y: 38, opacity: 0, duration: 0.48, ease: "back.out(1.2)" }, 29.54);
+      tl.to(".scene-2-main img", { scale: 1.025, duration: 25, ease: "sine.inOut" }, 29.6);
+
+      blurTransition("#scene-2", "#scene-3", 55.22);
+      enter(".scene-3-brand", { x: -42, opacity: 0, duration: 0.55, ease: "expo.out" }, 55.55);
+      enter(".scene-3-route", { opacity: 0, letterSpacing: "0.16em", duration: 0.65, ease: "power2.out" }, 55.65);
+      enter(".scene-3-label", { y: 24, opacity: 0, duration: 0.45, ease: "power2.out" }, 55.82);
+      enter(".scene-3-title", { x: -54, opacity: 0, duration: 0.7, ease: "expo.out" }, 56.0);
+      enter(".scene-3-shot-1", { x: -100, y: 80, opacity: 0, duration: 0.75, ease: "power4.out" }, 56.32);
+      enter(".scene-3-shot-2", { y: 100, scale: 0.92, opacity: 0, duration: 0.8, ease: "back.out(1.2)" }, 56.5);
+      enter(".scene-3-shot-3", { x: 100, y: 80, opacity: 0, duration: 0.75, ease: "power3.out" }, 56.68);
+      enter(".scene-3-rail", { y: 60, opacity: 0, duration: 0.65, ease: "expo.out" }, 57.08);
+      enter(".flow-step", { scale: 0.84, opacity: 0, duration: 0.4, stagger: 0.12, ease: "back.out(1.5)" }, 57.4);
+      enter(".scene-3-caption", { y: 40, opacity: 0, duration: 0.5, ease: "power3.out" }, 58.0);
+      tl.to(".scene-3-shot-1", { y: 5, duration: 25, ease: "sine.inOut" }, 58.2);
+      tl.to(".scene-3-shot-3", { y: 12, duration: 25, ease: "sine.inOut" }, 58.2);
+
+      pushTransition("#scene-3", "#scene-4", 84.5, "left");
+      enter(".scene-4-brand", { x: -44, opacity: 0, duration: 0.58, ease: "expo.out" }, 84.8);
+      enter(".scene-4-route", { x: 46, opacity: 0, duration: 0.48, ease: "power3.out" }, 84.9);
+      enter(".scene-4-label", { y: 22, opacity: 0, duration: 0.46, ease: "power2.out" }, 85.08);
+      enter(".scene-4-title", { y: 52, opacity: 0, duration: 0.74, ease: "expo.out" }, 85.24);
+      enter(".scene-4-shot", { x: -92, opacity: 0, duration: 0.8, ease: "power4.out" }, 85.58);
+      enter(".scene-4-contract", { x: 92, opacity: 0, duration: 0.78, ease: "back.out(1.18)" }, 85.8);
+      enter(".json-line", { x: 36, opacity: 0, duration: 0.42, stagger: 0.16, ease: "power2.out" }, 86.5);
+      enter(".scene-4-pills .pill", { y: 18, opacity: 0, duration: 0.36, stagger: 0.11, ease: "power3.out" }, 87.3);
+      enter(".scene-4-caption", { y: 38, opacity: 0, duration: 0.48, ease: "back.out(1.2)" }, 87.9);
+      tl.to(".scene-4-shot img", { scale: 1.035, duration: 34, ease: "sine.inOut" }, 88.0);
+
+      blurTransition("#scene-4", "#scene-5", 122.43);
+      enter(".scene-5-brand", { x: -44, opacity: 0, duration: 0.55, ease: "expo.out" }, 122.76);
+      enter(".scene-5-route", { opacity: 0, scale: 0.92, duration: 0.48, ease: "back.out(1.3)" }, 122.86);
+      enter(".scene-5-label", { y: 22, opacity: 0, duration: 0.46, ease: "power2.out" }, 123.04);
+      enter(".scene-5-title", { x: -58, opacity: 0, duration: 0.72, ease: "expo.out" }, 123.2);
+      enter(".scene-5-shot", { x: -92, opacity: 0, duration: 0.82, ease: "power4.out" }, 123.55);
+      enter(".scene-5-panel", { x: 92, opacity: 0, duration: 0.78, ease: "back.out(1.16)" }, 123.78);
+      enter(".decision-1", { x: 46, opacity: 0, duration: 0.45, ease: "power3.out" }, 124.42);
+      enter(".decision-2", { scale: 0.88, opacity: 0, duration: 0.5, ease: "back.out(1.4)" }, 124.68);
+      enter(".decision-3", { x: -46, opacity: 0, duration: 0.45, ease: "power2.out" }, 124.94);
+      enter(".scene-5-fallback", { y: 28, opacity: 0, duration: 0.56, ease: "power3.out" }, 125.38);
+      enter(".scene-5-caption", { y: 38, opacity: 0, duration: 0.48, ease: "back.out(1.2)" }, 125.92);
+      tl.to(".scene-5-shot img", { y: -38, duration: 28, ease: "sine.inOut" }, 126.0);
+
+      pushTransition("#scene-5", "#scene-6", 155.16, "left");
+      enter(".scene-6-brand", { x: -44, opacity: 0, duration: 0.56, ease: "expo.out" }, 155.5);
+      enter(".scene-6-route", { x: 48, opacity: 0, duration: 0.48, ease: "power3.out" }, 155.58);
+      enter(".scene-6-label", { y: 22, opacity: 0, duration: 0.46, ease: "power2.out" }, 155.76);
+      enter(".scene-6-title", { y: 52, opacity: 0, duration: 0.72, ease: "expo.out" }, 155.92);
+      enter(".scene-6-boundary", { x: -82, opacity: 0, duration: 0.75, ease: "power4.out" }, 156.26);
+      enter(".scene-6-shot", { x: 92, opacity: 0, duration: 0.82, ease: "back.out(1.16)" }, 156.4);
+      enter(".boundary-1", { x: -38, opacity: 0, duration: 0.4, ease: "power2.out" }, 157.0);
+      enter(".arrow-1", { scale: 0.5, opacity: 0, duration: 0.35, ease: "back.out(1.5)" }, 157.25);
+      enter(".boundary-2", { x: 38, opacity: 0, duration: 0.4, ease: "power3.out" }, 157.48);
+      enter(".arrow-2", { scale: 0.5, opacity: 0, duration: 0.35, ease: "back.out(1.5)" }, 157.72);
+      enter(".boundary-3", { y: 28, opacity: 0, duration: 0.48, ease: "expo.out" }, 157.95);
+      enter(".scene-6-pills .pill", { y: 18, opacity: 0, duration: 0.38, stagger: 0.12, ease: "power2.out" }, 158.42);
+      enter(".scene-6-caption", { y: 38, opacity: 0, duration: 0.48, ease: "back.out(1.2)" }, 158.92);
+      tl.to(".scene-6-shot img", { scale: 1.028, duration: 26, ease: "sine.inOut" }, 159.0);
+
+      blurTransition("#scene-6", "#scene-7", 185.16);
+      enter(".scene-7-brand", { x: -44, opacity: 0, duration: 0.56, ease: "expo.out" }, 185.5);
+      enter(".scene-7-route", { opacity: 0, letterSpacing: "0.17em", duration: 0.58, ease: "power2.out" }, 185.6);
+      enter(".scene-7-label", { y: 22, opacity: 0, duration: 0.44, ease: "power3.out" }, 185.78);
+      enter(".scene-7-title", { x: -58, opacity: 0, duration: 0.72, ease: "expo.out" }, 185.94);
+      enter(".scene-7-hero", { x: -86, opacity: 0, duration: 0.78, ease: "power4.out" }, 186.3);
+      enter(".scene-7-number", { scale: 0.7, opacity: 0, duration: 0.68, ease: "back.out(1.35)" }, 186.72);
+      enter(".scene-7-progress", { scaleX: 0, duration: 1.2, ease: "power3.out" }, 187.24);
+      enter(".validation-1", { x: 80, opacity: 0, duration: 0.48, ease: "power3.out" }, 186.62);
+      enter(".validation-2", { x: 100, opacity: 0, duration: 0.52, ease: "expo.out" }, 186.9);
+      enter(".validation-3", { x: 120, opacity: 0, duration: 0.56, ease: "back.out(1.18)" }, 187.18);
+      enter(".scene-7-caption", { y: 38, opacity: 0, duration: 0.48, ease: "power3.out" }, 187.86);
+      tl.to(".scene-7-number", { y: -10, duration: 27, ease: "sine.inOut" }, 188.0);
+
+      pushTransition("#scene-7", "#scene-8", 217.72, "left");
+      enter(".scene-8-brand", { x: -44, opacity: 0, duration: 0.7, ease: "expo.out" }, 218.04);
+      enter(".scene-8-route", { opacity: 0, scale: 0.92, duration: 0.52, ease: "back.out(1.25)" }, 218.18);
+      enter(".scene-8-label", { y: 28, opacity: 0, duration: 0.5, ease: "power2.out" }, 218.44);
+      enter(".scene-8-line-1", { x: -80, opacity: 0, duration: 0.9, ease: "expo.out" }, 218.74);
+      enter(".scene-8-line-2", { y: 74, opacity: 0, duration: 1.05, ease: "power4.out" }, 219.18);
+      enter(".scene-8-note", { y: 34, opacity: 0, duration: 0.72, ease: "power3.out" }, 219.9);
+      enter(".scene-8-caption", { y: 40, opacity: 0, duration: 0.55, ease: "back.out(1.2)" }, 220.42);
+      tl.fromTo(".final-bg", { scale: 1.03 }, { scale: 1.08, duration: 25, ease: "sine.inOut" }, 220.0);
+      tl.to(
+        ["#scene-8 .topline", ".final-content", ".scene-8-caption"],
+        { opacity: 0, duration: 1.25, ease: "power2.in" },
+        246.8
+      );
+      tl.to("#scene-8", { backgroundColor: "#f4fbf9", duration: 1.25, ease: "sine.inOut" }, 247.2);
+
+      window.__timelines["main"] = tl;
+    </script>
+  </body>
+</html>

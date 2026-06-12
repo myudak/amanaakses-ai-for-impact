@@ -1,0 +1,85 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.turbo/
+.parcel-cache/
+.cache/
+.npm-cache/
+
+# Package-manager and runtime logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vercel local project metadata
+.vercel/
+
+# Test and coverage output
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local generated dependency/runtime directories under supporting
+supporting/node_modules/
+supporting/python-packages/
+supporting/spreadsheet-build/node_modules/
+supporting/tubes-ai-document/python-packages/
+
+# Temporary Office files
+~$*
+*.tmp
+*.temp
+
+# Editor and operating-system files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local AI/editor configuration
+.claude/
+
+# Local deployment and development artifacts
+*.tsbuildinfo
+*.local
+
+# Reproducible document, packaging, and preview output
+supporting/feedback-workbook-preview/
+supporting/hyperframes-runtime/
+supporting/qa-academic-docs/
+supporting/rendered/
+supporting/source-package/
+supporting/supporting/
+supporting/spreadsheet-build/
+supporting/tubes-ai-document/render-final/
+supporting/tubes-ai-document/render-original/

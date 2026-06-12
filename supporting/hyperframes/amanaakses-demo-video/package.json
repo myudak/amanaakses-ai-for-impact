@@ -1,0 +1,15 @@
+{
+  "name": "amanaakses-demo-video",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes hyperframes@0.6.93 preview",
+    "check": "npx --yes hyperframes@0.6.93 lint && npx --yes hyperframes@0.6.93 validate && npx --yes hyperframes@0.6.93 inspect",
+    "render": "npx --yes hyperframes@0.6.93 render",
+    "publish": "npx --yes hyperframes@0.6.93 publish"
+  },
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2"
+  }
+}

@@ -1,0 +1,24 @@
+1
+00:00:00,100 --> 00:00:05,245
+Fitur A I utama AmanAkses adalah Safe Timeline Assistant.
+
+2
+00:00:05,195 --> 00:00:11,201
+Pada halaman ini, pengguna memilih catatan sintetis yang ingin diproses.
+
+3
+00:00:11,201 --> 00:00:17,137
+Gemini kemudian diminta menyusun draf peristiwa dalam struktur JSON yang terbatas.
+
+4
+00:00:17,137 --> 00:00:21,918
+Setiap peristiwa wajib memiliki referensi ke catatan sumber.
+
+5
+00:00:21,918 --> 00:00:29,710
+Tanggal, waktu, atau lokasi yang tidak tersedia harus tetap kosong atau ditandai tidak pasti.
+
+6
+00:00:29,710 --> 00:00:37,950
+Sistem dilarang menyimpulkan niat, kesalahan, diagnosis, kebenaran, maupun status hukum.
+

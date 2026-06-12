@@ -1,0 +1,25 @@
+CANVAS: 1280 x 720, warm white base
+TYPE: Aptos Display for titles; Aptos for body
+
+PALETTE
+- Ink: #17313A
+- Slate: #50656D
+- Teal: #147D78
+- Deep teal: #0F5F5B
+- Mist: #DDF3EF
+- Violet: #7257B7
+- Violet mist: #EEE9FA
+- Coral: #E87962
+- Warm white: #FBF8F1
+- White: #FFFFFF
+- Pale line: #D7E2DF
+
+GRAMMAR
+- Large editorial claims, short body copy.
+- Rounded panels only when they encode a real stage, boundary, or decision.
+- Teal represents user-controlled product flow.
+- Violet represents AI-assisted transformation.
+- Coral marks risk, limits, or unresolved work.
+- Repeated footer: AI draft, human decision.
+- Minimum body size: 18 px. Minimum source/footer size: 12 px.
+

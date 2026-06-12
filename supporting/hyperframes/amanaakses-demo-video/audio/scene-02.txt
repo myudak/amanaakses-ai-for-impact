@@ -1,0 +1,1 @@
+AmanAkses adalah prototype ruang digital aksesibel untuk belajar, menulis jurnal secara bertahap, mengelola bukti, menyusun kronologi, dan meninjau laporan awal. Pengguna dapat memilih jalurnya sendiri, menyesuaikan kebutuhan aksesibilitas, menggunakan mode discreet, dan keluar cepat menuju halaman netral. Semua data dalam demonstrasi ini bersifat sintetis.

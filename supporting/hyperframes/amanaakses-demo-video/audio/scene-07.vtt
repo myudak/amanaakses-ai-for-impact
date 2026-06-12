@@ -1,0 +1,20 @@
+1
+00:00:00,100 --> 00:00:05,135
+Prototype diuji menggunakan sepuluh skenario sintetis utama.
+
+2
+00:00:05,085 --> 00:00:15,074
+Seluruh skenario lulus, termasuk tanggal yang hilang, waktu perkiraan, lokasi kosong, alias, dan catatan netral.
+
+3
+00:00:15,074 --> 00:00:22,052
+Satu negative guard juga lulus dengan menolak respons yang menggunakan referensi sumber tidak valid.
+
+4
+00:00:22,052 --> 00:00:25,086
+Build produksi dan lint lulus.
+
+5
+00:00:25,086 --> 00:00:32,500
+Pengujian ini memvalidasi kontrak data dan fallback, bukan membuktikan ketepatan A I pada kasus nyata.
+

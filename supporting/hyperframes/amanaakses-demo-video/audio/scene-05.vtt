@@ -1,0 +1,20 @@
+1
+00:00:00,100 --> 00:00:05,536
+Keluaran A I selalu diberi label sebagai draf yang belum diverifikasi.
+
+2
+00:00:05,486 --> 00:00:15,074
+Pengguna dapat membuka sumber, mengedit isi, menandai perlunya pemeriksaan, menerima, atau menolak setiap peristiwa.
+
+3
+00:00:15,074 --> 00:00:19,030
+Tidak ada hasil yang otomatis masuk ke laporan.
+
+4
+00:00:19,030 --> 00:00:27,477
+Jika Gemini atau jaringan tidak tersedia, fallback deterministik menyusun format demonstrasi dari label yang tertulis.
+
+5
+00:00:27,477 --> 00:00:32,695
+Mode fallback tetap mempertahankan sumber dan gerbang tinjauan manusia.
+

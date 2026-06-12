@@ -1,0 +1,75 @@
+{
+  "typography": [
+    {
+      "role": "display",
+      "fontFamily": "Plus Jakarta Sans",
+      "fontSize": "60px",
+      "fontWeight": "800",
+      "lineHeight": "62.4px",
+      "letterSpacing": "-1.2px",
+      "color": "oklch(0.129 0.042 264.695)",
+      "sampleText": "Pahami, catat, dan cari bantuan dengan kendali penuh."
+    },
+    {
+      "role": "heading",
+      "fontFamily": "Plus Jakarta Sans",
+      "fontSize": "24px",
+      "fontWeight": "900",
+      "lineHeight": "30px",
+      "letterSpacing": "normal",
+      "color": "oklch(0.129 0.042 264.695)",
+      "sampleText": "Ruang aman untuk langkah kecil."
+    },
+    {
+      "role": "body",
+      "fontFamily": "Plus Jakarta Sans",
+      "fontSize": "18px",
+      "fontWeight": "400",
+      "lineHeight": "32px",
+      "letterSpacing": "normal",
+      "color": "oklch(0.446 0.043 257.281)",
+      "sampleText": "AmanAkses adalah ruang digital aksesibel untuk menyimpan jur"
+    },
+    {
+      "role": "link",
+      "fontFamily": "Plus Jakarta Sans",
+      "fontSize": "18px",
+      "fontWeight": "900",
+      "lineHeight": "28px",
+      "letterSpacing": "normal",
+      "color": "oklch(0.129 0.042 264.695)",
+      "sampleText": "AmanAkses"
+    }
+  ],
+  "spacing": {
+    "observed": [
+      4,
+      8,
+      12,
+      16,
+      20,
+      24,
+      32,
+      40
+    ],
+    "baseUnit": 4
+  },
+  "radius": [
+    "3.35544e+07px"
+  ],
+  "shadows": [],
+  "buttons": [],
+  "cards": [],
+  "nav": {
+    "label": "navigation",
+    "background": "#000000",
+    "color": "oklch(0.129 0.042 264.695)",
+    "padding": "20px 32px",
+    "borderRadius": "0px",
+    "border": "0px solid oklch(0.129 0.042 264.695)",
+    "boxShadow": "none",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "height": "84px"
+  }
+}

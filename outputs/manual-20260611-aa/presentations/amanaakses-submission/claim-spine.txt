@@ -1,0 +1,14 @@
+MODE: create
+PRIMARY PROFILE: product-platform
+
+1. AmanAkses helps users organize their own records without letting AI decide what is true.
+2. The problem is not only access to information; it is the cumulative burden of fragmented, inaccessible, and emotionally difficult reporting steps.
+3. Users with disabilities face interaction, communication, cognitive, and trust barriers across the same reporting journey.
+4. AmanAkses connects learning, private journaling, evidence organization, human review, and consent into one controlled flow.
+5. Safe Timeline Assistant turns selected synthetic notes into a cited, editable chronology draft.
+6. Raw notes stay within the request boundary; the Gemini key remains server-side; fallback output preserves the demo without network access.
+7. Every generated event must be reviewed, edited, accepted, or rejected by the user before it can move forward.
+8. The prototype demonstrates the core workflow while clearly labeling simulated and incomplete integrations.
+9. Ten deterministic validation fixtures pass; peer testing and live-Gemini evidence remain explicit placeholders.
+10. The near-term value is lower cognitive burden and stronger user agency, with deployment and participatory validation as the next milestones.
+

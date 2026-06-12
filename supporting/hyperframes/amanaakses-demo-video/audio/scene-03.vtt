@@ -1,0 +1,20 @@
+1
+00:00:00,100 --> 00:00:04,553
+Alur dimulai dari informasi dasar yang mudah dibaca.
+
+2
+00:00:04,503 --> 00:00:10,401
+Pengguna dapat memahami pilihan bantuan tanpa kewajiban langsung membuat laporan.
+
+3
+00:00:10,401 --> 00:00:14,588
+Catatan disimpan bertahap melalui Jurnal Aman.
+
+4
+00:00:14,588 --> 00:00:20,401
+Hanya catatan yang dipilih secara eksplisit yang dapat masuk ke proses berikutnya.
+
+5
+00:00:20,401 --> 00:00:29,200
+Brankas bukti, pendamping tepercaya, dan laporan awal membentuk alur lanjutan yang tetap meminta persetujuan pengguna.
+

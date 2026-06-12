@@ -1,0 +1,39 @@
+[a] AmanAkses
+[a] Aksesibilitas
+[a] Alur Aman
+[a] Buka Demo
+[span] Data simulasi · Platform aksesibel
+[h1] Pahami, catat, dan cari bantuan dengan
+[span] kendali penuh
+[p] AmanAkses adalah ruang digital aksesibel untuk menyimpan jurnal, mengatur bukti, menyusun kronologi, dan berbagi laporan awal hanya dengan izin yang jelas.
+[a] Mulai ruang aman
+[a] Lihat mobile preview
+[p] Pahami
+[p] Materi easy-read, audio, dan isyarat
+[p] Catat
+[p] Jurnal aman dengan autosave
+[p] Bagikan
+[p] Izin akses yang bisa dicabut
+[span] Easy Read
+[p] Kalimat pendek, tombol jelas, dan alur bisa dijeda.
+[p] AmanAkses
+[p] Ruang pribadi terkunci
+[span] Terkunci
+[p] Dashboard AmanAkses
+[h2] Ruang aman untuk langkah kecil.
+[p] Semua tindakan penting meminta konfirmasi dan menampilkan ringkasan sebelum berbagi.
+[p] Pahami
+[p] Hak, batas aman, dan opsi bantuan.
+[p] Jurnal
+[p] Catatan bertahap dengan autosave.
+[p] Brankas
+[p] Bukti terpilih dan metadata aman.
+[p] Catatan tersimpan
+[p] Bukti dipilih
+[p] Izin ditinjau
+[p] Aksesibilitas
+[div] Screen reader
+[div] Voice note
+[div] Bahasa isyarat
+[p] Keluar Cepat
+[p] Kunci sesi dan buka halaman netral.

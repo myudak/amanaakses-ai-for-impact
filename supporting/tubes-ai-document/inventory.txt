@@ -1,0 +1,408 @@
+SECTIONS 1
+SECTION 1 page 21.01 29.69 margins [2.54, 2.54, 2.54, 2.54] header 1.27 footer 1.27
+PARAGRAPHS 470 TABLES 4 INLINE_SHAPES 1
+
+STYLES USED
+'normal' 171
+'Heading 1' 7
+
+PARAGRAPHS
+000 style='Heading 1' align=CENTER (1) before=None after=3.0 line=1.5 text='TUGAS PROYEK'
+    runs [{'t': 'TUGAS PROYEK', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+001 style='Heading 1' align=CENTER (1) before=None after=3.0 line=1.5 text='KECERDASAN BUATAN'
+    runs [{'t': 'KECERDASAN BUATAN', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+002 style='Heading 1' align=CENTER (1) before=None after=3.0 line=1.5 text='SISTEM AMANAKSES'
+    runs [{'t': 'SISTEM AMANAKSES', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+004 style='normal' align=CENTER (1) before=None after=None line=1.5 text='Dosen Pengampu :'
+    runs [{'t': 'Dosen Pengampu :', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+005 style='normal' align=CENTER (1) before=None after=None line=1.5 text='Dr. Helmie Arif Wibawa, S.Si.,M.Cs.'
+    runs [{'t': 'Dr. Helmie Arif Wibawa, S.Si.,M.Cs.', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+011 style='normal' align=CENTER (1) before=10.0 after=None line=1.5 text='Disusun Oleh:'
+    runs [{'t': 'Disusun Oleh:', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+012 style='normal' align=JUSTIFY (3) before=None after=None line=1.5 text='Muchammad Yuda Tri Ananda (24060124110142)'
+    runs [{'t': 'Muchammad Yuda Tri Ananda (24060124110142)', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+013 style='normal' align=JUSTIFY (3) before=None after=None line=1.5 text='Nadia Azura Nurhaniya (24060124120019)'
+    runs [{'t': 'Nadia Azura Nurhaniya (24060124120019)', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+014 style='normal' align=JUSTIFY (3) before=None after=None line=1.5 text='Muhammad Zaidaan Ardiyansyah (24060124140200)'
+    runs [{'t': 'Muhammad Zaidaan Ardiyansyah (24060124140200)', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+015 style='normal' align=JUSTIFY (3) before=None after=None line=1.5 text='Anintya Abhi Wiryateja (24060124130053)'
+    runs [{'t': 'Anintya Abhi Wiryateja (24060124130053)', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+016 style='normal' align=JUSTIFY (3) before=None after=None line=1.5 text='Muhamad Kemal Faza (24060124120013)'
+    runs [{'t': 'Muhamad Kemal Faza (24060124120013)', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+019 style='Heading 1' align=CENTER (1) before=None after=3.0 line=1.5 text='DEPARTEMEN INFORMATIKA'
+    runs [{'t': 'DEPARTEMEN INFORMATIKA', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+020 style='Heading 1' align=CENTER (1) before=None after=3.0 line=1.5 text='FAKULTAS SAINS DAN MATEMATIKA'
+    runs [{'t': 'FAKULTAS SAINS DAN MATEMATIKA', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+021 style='Heading 1' align=CENTER (1) before=None after=3.0 line=1.5 text='UNIVERSITAS DIPONEGORO'
+    runs [{'t': 'UNIVERSITAS DIPONEGORO', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+022 style='Heading 1' align=CENTER (1) before=None after=3.0 line=1.5 text='2026'
+    runs [{'t': '2026', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+025 style='normal' align=CENTER (1) before=None after=None line=None text='KATA PENGANTAR'
+    runs [{'t': 'KATA PENGANTAR', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+069 style='normal' align=CENTER (1) before=None after=None line=None text='DAFTAR ISI'
+    runs [{'t': 'DAFTAR ISI', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+113 style='normal' align=CENTER (1) before=None after=None line=None text='BAB I'
+    runs [{'t': 'BAB I', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+114 style='normal' align=CENTER (1) before=None after=None line=None text='PENDAHULUAN'
+    runs [{'t': 'PENDAHULUAN', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+116 style='normal' align=LEFT (0) before=None after=None line=None text='Latar Belakang'
+    runs [{'t': 'Latar Belakang', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+117 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Kekerasan seksual merupakan permasalahan serius yang membutuhkan penanganan komprehensif, mencakup pencegahan, pelindungan, dan pemulihan korban. Undang-Undang Nomor 12 Tahun 2022 tentang Tindak Pidana Kekerasan Seksual menegaskan pentingnya koordinasi antar p'
+    runs [{'t': 'Kekerasan seksual merupakan permasalahan serius yang membutuhkan penanganan komp', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+118 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Penyandang disabilitas menghadapi hambatan berlapis ketika mengalami atau berisiko mengalami kekerasan seksual. Hambatan tersebut meliputi kesulitan komunikasi, keterbatasan akses informasi, ketergantungan pada orang lain, serta minimnya layanan yang dirancang'
+    runs [{'t': 'Penyandang disabilitas menghadapi hambatan berlapis ketika mengalami atau berisi', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+119 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Data Komnas Perempuan dalam CATAHU 2024 mencatat 105 kasus kekerasan terhadap perempuan dengan disabilitas, dengan 38 kasus dilaporkan langsung ke Komnas Perempuan. Angka ini diyakini jauh lebih kecil dari kenyataan di lapangan karena banyak korban tidak memil'
+    runs [{'t': 'Data Komnas Perempuan dalam CATAHU 2024 mencatat 105 kasus kekerasan terhadap pe', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+120 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Di sisi lain, perkembangan Artificial Intelligence (AI) membuka peluang besar untuk menjawab permasalahan ini. AI dapat digunakan untuk menyederhanakan bahasa informasi, membantu pengguna menyusun kronologi kejadian secara otomatis, serta menghasilkan draft la'
+    runs [{'t': 'Di sisi lain, perkembangan Artificial Intelligence (AI) membuka peluang besar un', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+121 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Atas dasar itulah dikembangkan AmanAkses, sebuah platform digital aksesibel yang membantu penyandang disabilitas memahami bentuk kekerasan seksual, menyimpan catatan dan bukti secara aman, menyusun kronologi kejadian, serta menyiapkan laporan awal sesuai perse'
+    runs [{'t': 'Atas dasar itulah dikembangkan AmanAkses, sebuah platform digital aksesibel yang', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+122 style='normal' align=LEFT (0) before=None after=None line=None text='Rumusan Masalah'
+    runs [{'t': 'Rumusan Masalah', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+123 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Berdasarkan latar belakang di atas, rumusan masalah dalam proyek ini adalah sebagai berikut.'
+    runs [{'t': 'Berdasarkan latar belakang di atas, rumusan masalah dalam proyek ini adalah seba', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+124 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Bagaimana membantu penyandang disabilitas memahami bentuk kekerasan seksual, hak korban, dan pilihan bantuan melalui bahasa yang sederhana, aksesibel, dan tidak menyalahkan korban?'
+    runs [{'t': 'Bagaimana membantu penyandang disabilitas memahami bentuk kekerasan seksual, hak', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+125 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Bagaimana menyediakan ruang pencatatan yang aman agar pengguna dapat menyusun pengalaman, kronologi, dan bukti tanpa harus menceritakan ulang peristiwa secara berulang kepada banyak pihak?'
+    runs [{'t': 'Bagaimana menyediakan ruang pencatatan yang aman agar pengguna dapat menyusun pe', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+126 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Bagaimana menjaga kendali data tetap berada di tangan pengguna, termasuk kapan data disimpan, dihapus, atau dibagikan kepada pendamping atau lembaga layanan?'
+    runs [{'t': 'Bagaimana menjaga kendali data tetap berada di tangan pengguna, termasuk kapan d', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+127 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Bagaimana merancang sistem yang mendukung berbagai kebutuhan aksesibilitas seperti pembaca layar, catatan suara, bahasa mudah, tombol besar, kontras tinggi, dan video bahasa isyarat?'
+    runs [{'t': 'Bagaimana merancang sistem yang mendukung berbagai kebutuhan aksesibilitas seper', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+128 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Bagaimana memastikan teknologi AI hanya membantu merapikan informasi dan tidak membuat vonis, diagnosis, atau keputusan hukum otomatis?'
+    runs [{'t': 'Bagaimana memastikan teknologi AI hanya membantu merapikan informasi dan tidak m', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+129 style='normal' align=LEFT (0) before=None after=None line=None text='Tujuan Proyek'
+    runs [{'t': 'Tujuan Proyek', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+130 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Tujuan dari pengembangan AmanAkses adalah sebagai berikut.'
+    runs [{'t': 'Tujuan dari pengembangan AmanAkses adalah sebagai berikut.', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+131 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Membangun platform digital aksesibel yang membantu penyandang disabilitas memahami bentuk kekerasan seksual, hak korban, dan pilihan bantuan melalui informasi yang mudah dipahami.'
+    runs [{'t': 'Membangun platform digital aksesibel yang membantu penyandang disabilitas memaha', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+132 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Menyediakan jurnal aman dan brankas bukti terenkripsi untuk menyimpan catatan, media, dokumen, dan informasi penting secara terstruktur.'
+    runs [{'t': 'Menyediakan jurnal aman dan brankas bukti terenkripsi untuk menyimpan catatan, m', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+133 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Membantu pengguna menyusun kronologi kejadian secara bertahap berdasarkan waktu, lokasi, pihak terkait, dampak, dan bukti pendukung.'
+    runs [{'t': 'Membantu pengguna menyusun kronologi kejadian secara bertahap berdasarkan waktu,', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+134 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Menghasilkan laporan awal yang dapat ditinjau oleh pendamping atau lembaga layanan sesuai persetujuan pengguna.'
+    runs [{'t': 'Menghasilkan laporan awal yang dapat ditinjau oleh pendamping atau lembaga layan', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+135 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Menerapkan prinsip privacy-by-design, consent-by-design, accessibility-by-design, dan human-in-the-loop agar sistem aman digunakan pada konteks sensitif.'
+    runs [{'t': 'Menerapkan prinsip privacy-by-design, consent-by-design, accessibility-by-design', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+136 style='normal' align=LEFT (0) before=None after=None line=None text='Manfaat Proyek'
+    runs [{'t': 'Manfaat Proyek', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+137 style='normal' align=LEFT (0) before=None after=None line=None text='Bagi Pengguna'
+    runs [{'t': 'Bagi Pengguna', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+138 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Penyandang disabilitas sebagai pengguna utama mendapatkan ruang aman digital untuk memahami situasi yang mereka hadapi, mencatat pengalaman secara terstruktur, menyimpan bukti dengan aman, dan menentukan sendiri langkah yang ingin diambil tanpa tekanan dari pi'
+    runs [{'t': 'Penyandang disabilitas sebagai pengguna utama mendapatkan ruang aman digital unt', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+139 style='normal' align=LEFT (0) before=None after=None line=None text='Bagi Pengembang'
+    runs [{'t': 'Bagi Pengembang', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+140 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Proyek ini memberikan pengalaman langsung bagi tim pengembang dalam merancang sistem yang menggabungkan aksesibilitas digital, keamanan data, desain berbasis trauma, dan pemanfaatan AI yang bertanggung jawab. Tim memperoleh pemahaman mendalam tentang bagaimana'
+    runs [{'t': 'Proyek ini memberikan pengalaman langsung bagi tim pengembang dalam merancang si', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+141 style='normal' align=LEFT (0) before=None after=None line=None text='Bagi Institusi/Masyarakat'
+    runs [{'t': 'Bagi Institusi/Masyarakat', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+142 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Satgas PPKS/PPKPT, lembaga layanan, dan aparat penegak hukum mendapatkan laporan awal yang lebih terstruktur, jelas, dan disusun berdasarkan persetujuan pengguna, sehingga proses triase dan tindak lanjut dapat dilakukan lebih terarah. Bagi masyarakat luas, Ama'
+    runs [{'t': 'Satgas PPKS/PPKPT, lembaga layanan, dan aparat penegak hukum mendapatkan laporan', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+143 style='normal' align=LEFT (0) before=None after=None line=None text='Target Pengguna'
+    runs [{'t': 'Target Pengguna', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+144 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Target pengguna utama AmanAkses adalah penyandang disabilitas yang mengalami atau berisiko mengalami kekerasan seksual, mencakup pengguna dengan disabilitas netra atau low vision, pengguna Tuli atau dengan hambatan pendengaran, pengguna dengan disabilitas inte'
+    runs [{'t': 'Target pengguna utama AmanAkses adalah penyandang disabilitas yang mengalami ata', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+145 style='normal' align=LEFT (0) before=None after=None line=None text='Batasan masalah'
+    runs [{'t': 'Batasan masalah', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+146 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Agar pengembangan tetap terfokus dan tidak melampaui kapasitas tim serta waktu pengerjaan, berikut adalah batasan masalah proyek AmanAkses.'
+    runs [{'t': 'Agar pengembangan tetap terfokus dan tidak melampaui kapasitas tim serta waktu p', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+147 style='normal' align=JUSTIFY (3) before=None after=None line=None text='AmanAkses dirancang sebagai alat bantu dokumentasi aman dan penyusunan laporan awal, bukan sebagai pengganti layanan darurat, psikolog, konselor, pendamping hukum, Satgas, atau aparat penegak hukum.'
+    runs [{'t': 'AmanAkses dirancang sebagai alat bantu dokumentasi aman dan penyusunan laporan a', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+148 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Sistem tidak menyatakan apakah suatu peristiwa pasti merupakan tindak pidana. Validasi kebenaran kasus sepenuhnya dilakukan oleh manusia atau pendamping berwenang.'
+    runs [{'t': 'Sistem tidak menyatakan apakah suatu peristiwa pasti merupakan tindak pidana. Va', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+149 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Tidak terdapat fitur auto-submit ke lembaga eksternal. Setiap pembagian data memerlukan persetujuan eksplisit dari pengguna.'
+    runs [{'t': 'Tidak terdapat fitur auto-submit ke lembaga eksternal. Setiap pembagian data mem', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+150 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Fitur AI yang diimplementasikan terbatas pada penyusunan kronologi, penyederhanaan bahasa, pembuatan draft laporan awal, dan speech-to-text. AI tidak membuat vonis, diagnosis, prediksi kebenaran, atau rekomendasi hukum final.'
+    runs [{'t': 'Fitur AI yang diimplementasikan terbatas pada penyusunan kronologi, penyederhana', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+151 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Sistem tidak menyediakan fitur penyadapan, perekaman tersembunyi, atau tindakan pengumpulan bukti lain yang melanggar hukum.'
+    runs [{'t': 'Sistem tidak menyediakan fitur penyadapan, perekaman tersembunyi, atau tindakan ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+152 style='normal' align=JUSTIFY (3) before=None after=12.0 line=None text='Pengembangan prototype difokuskan pada versi web/PWA dengan antarmuka yang memenuhi prinsip dasar WCAG 2.2.'
+    runs [{'t': 'Pengembangan prototype difokuskan pada versi web/PWA dengan antarmuka yang memen', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+190 style='normal' align=CENTER (1) before=None after=None line=None text='BAB II'
+    runs [{'t': 'BAB II', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+191 style='normal' align=CENTER (1) before=None after=None line=None text='ANALISIS MASALAH DAN STUDI LITERATUR'
+    runs [{'t': 'ANALISIS MASALAH DAN STUDI LITERATUR', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+193 style='normal' align=LEFT (0) before=None after=None line=None text='Identifikasi Masalah'
+    runs [{'t': 'Identifikasi Masalah', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+194 style='normal' align=LEFT (0) before=None after=None line=None text='Berdasarkan studi regulasi dan observasi terhadap kondisi layanan yang tersedia, ditemukan beberapa permasalahan utama yang dihadapi penyandang disabilitas dalam konteks kekerasan seksual.'
+    runs [{'t': 'Berdasarkan studi regulasi dan observasi terhadap kondisi layanan yang tersedia,', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+195 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Pertama, minimnya akses terhadap informasi yang aksesibel. Sebagian besar materi edukasi tentang kekerasan seksual, hak korban, dan mekanisme pelaporan disajikan dalam bahasa hukum yang kompleks tanpa alternatif dalam format audio, easy-read, atau bahasa isyar'
+    runs [{'t': 'Pertama, minimnya akses terhadap informasi yang aksesibel. Sebagian besar materi', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+196 style='normal' align=LEFT (0) before=None after=None line=None text='Analisis Penyebab Masalah'
+    runs [{'t': 'Analisis Penyebab Masalah', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+197 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Permasalahan di atas disebabkan oleh beberapa faktor yang saling berkaitan. Dari sisi desain layanan digital, sebagian besar platform yang ada tidak dirancang dengan mempertimbangkan kebutuhan multi-disabilitas sejak awal. Aksesibilitas diperlakukan sebagai fi'
+    runs [{'t': 'Permasalahan di atas disebabkan oleh beberapa faktor yang saling berkaitan. Dari', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+200 style='normal' align=LEFT (0) before=None after=None line=None text='Studi Literatur'
+    runs [{'t': 'Studi Literatur', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+201 style='normal' align=LEFT (0) before=None after=None line=None text='Artificial Intelligence'
+    runs [{'t': 'Artificial Intelligence', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+202 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Artificial Intelligence (AI) adalah bidang ilmu komputer yang berfokus pada pengembangan sistem yang mampu melakukan tugas-tugas yang biasanya memerlukan kecerdasan manusia, seperti pemahaman bahasa, pengenalan pola, pengambilan keputusan, dan pembuatan konten'
+    runs [{'t': 'Artificial Intelligence (AI) adalah bidang ilmu komputer yang berfokus pada peng', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+203 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Prinsip human-in-the-loop menjadi dasar penggunaan AI dalam sistem ini, di mana setiap output yang dihasilkan oleh AI wajib ditinjau, diedit, dan disetujui oleh pengguna sebelum digunakan atau dibagikan. Pendekatan ini sejalan dengan prinsip AI yang bertanggun'
+    runs [{'t': 'Prinsip human-in-the-loop menjadi dasar penggunaan AI dalam sistem ini, di mana ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+204 style='normal' align=LEFT (0) before=None after=None line=None text='AI Agent/LLM'
+    runs [{'t': 'AI Agent/LLM', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+205 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Large Language Model (LLM) adalah jenis model AI yang dilatih pada data teks dalam skala besar sehingga mampu memahami dan menghasilkan teks secara alami. Dalam pengembangan AmanAkses, LLM digunakan melalui API untuk beberapa fungsi spesifik, yaitu penyederhan'
+    runs [{'t': 'Large Language Model (LLM) adalah jenis model AI yang dilatih pada data teks dal', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+206 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='AI Agent dalam konteks ini merujuk pada kemampuan sistem untuk secara otomatis menjalankan serangkaian langkah berdasarkan instruksi pengguna, misalnya mengambil entri jurnal yang relevan, mengidentifikasi urutan kejadian, dan menghasilkan draft kronologi. Nam'
+    runs [{'t': 'AI Agent dalam konteks ini merujuk pada kemampuan sistem untuk secara otomatis m', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+207 style='normal' align=LEFT (0) before=None after=None line=None text='Teknologi yang Digunakan'
+    runs [{'t': 'Teknologi yang Digunakan', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+208 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Pengembangan AmanAkses menggunakan tumpukan teknologi modern yang dipilih berdasarkan kebutuhan aksesibilitas, keamanan, dan kemudahan pengembangan. Frontend dibangun menggunakan Next.js/React dengan TypeScript dan Tailwind CSS, dilengkapi komponen ARIA untuk '
+    runs [{'t': 'Pengembangan AmanAkses menggunakan tumpukan teknologi modern yang dipilih berdas', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+209 style='normal' align=LEFT (0) before=None after=None line=None text='Penelitian atau Sistem Sejenis'
+    runs [{'t': 'Penelitian atau Sistem Sejenis', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+210 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Beberapa sistem yang memiliki kemiripan fungsi dengan AmanAkses antara lain aplikasi pelaporan kekerasan umum seperti SIMFONI PPA milik Kementerian PPPA, serta berbagai platform chatbot konseling yang dikembangkan oleh lembaga swadaya masyarakat. Namun, sistem'
+    runs [{'t': 'Beberapa sistem yang memiliki kemiripan fungsi dengan AmanAkses antara lain apli', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+211 style='normal' align=LEFT (0) before=None after=None line=None text='Analisis Kebutuhan Pengguna'
+    runs [{'t': 'Analisis Kebutuhan Pengguna', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+212 style='normal' align=LEFT (0) before=None after=10.0 line=None text='Persona Pengguna'
+    runs [{'t': 'Persona Pengguna', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+214 style='normal' align=LEFT (0) before=None after=10.0 line=None text='Kebutuhan Fungsional'
+    runs [{'t': 'Kebutuhan Fungsional', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+216 style='normal' align=LEFT (0) before=None after=10.0 line=None text='Kebutuhan Non-Fungsional'
+    runs [{'t': 'Kebutuhan Non-Fungsional', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+221 style='normal' align=CENTER (1) before=None after=None line=None text='BAB III'
+    runs [{'t': 'BAB III', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+222 style='normal' align=CENTER (1) before=None after=None line=None text='PEMANFAATAN AI DALAM PENGEMBANGAN SOLUSI'
+    runs [{'t': 'PEMANFAATAN AI DALAM PENGEMBANGAN SOLUSI', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+224 style='normal' align=LEFT (0) before=None after=None line=None text='AI Tools yang DIgunakan'
+    runs [{'t': 'AI Tools yang DIgunakan', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+225 style='normal' align=LEFT (0) before=None after=None line=None text='Proses Brainstorming Menggunakan AI'
+    runs [{'t': 'Proses Brainstorming Menggunakan AI', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+226 style='normal' align=LEFT (0) before=None after=None line=None text='Dokumentasi Prompt'
+    runs [{'t': 'Dokumentasi Prompt', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+227 style='normal' align=LEFT (0) before=None after=None line=None text='Evaluasi Hasil AI'
+    runs [{'t': 'Evaluasi Hasil AI', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+228 style='normal' align=LEFT (0) before=None after=None line=None text='Validasi dan Revisi'
+    runs [{'t': 'Validasi dan Revisi', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+265 style='normal' align=CENTER (1) before=None after=None line=None text='BAB IV'
+    runs [{'t': 'BAB IV', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+266 style='normal' align=CENTER (1) before=None after=None line=None text='PERANCANGAN SOLUSI'
+    runs [{'t': 'PERANCANGAN SOLUSI', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+268 style='normal' align=LEFT (0) before=None after=None line=None text='Nama Produk'
+    runs [{'t': 'Nama Produk', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+269 style='normal' align=None before=None after=None line=None text='AmanAkses'
+    runs [{'t': 'AmanAkses', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+270 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Platform Digital Aksesibel untuk Memahami, Mendokumentasikan, dan Mencari Bantuan secara Aman bagi Penyandang Disabilitas'
+    runs [{'t': 'Platform Digital Aksesibel untuk Memahami, Mendokumentasikan, dan Mencari Bantua', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': True, 'underline': None}]
+271 style='normal' align=LEFT (0) before=None after=None line=None text='Deskripsi Solusi'
+    runs [{'t': 'Deskripsi Solusi', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+272 style='normal' align=JUSTIFY (3) before=None after=None line=None text='AmanAkses adalah platform digital berbasis web/PWA yang dirancang khusus untuk penyandang disabilitas yang mengalami atau berisiko mengalami kekerasan seksual. Platform ini menyediakan ruang aman digital di mana pengguna dapat belajar tentang hak dan bentuk ke'
+    runs [{'t': 'AmanAkses adalah platform digital berbasis web/PWA yang dirancang khusus untuk p', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+273 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Nilai utama AmanAkses dirangkum dalam empat prinsip: Understand Safely (memahami dengan aman), Record Safely (mencatat dengan aman), Decide Safely (memutuskan dengan aman), dan Share Safely (berbagi dengan aman).'
+    runs [{'t': 'Nilai utama AmanAkses dirangkum dalam empat prinsip:', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}, {'t': 'Understand Safely', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': True, 'underline': None}, {'t': '(memahami dengan aman),', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}, {'t': 'Record Safely', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': True, 'underline': None}]
+274 style='normal' align=LEFT (0) before=None after=None line=None text='Tujuan Produk'
+    runs [{'t': 'Tujuan Produk', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+275 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='AmanAkses bertujuan untuk memberikan akses yang setara bagi penyandang disabilitas terhadap informasi, dokumentasi, dan dukungan awal dalam situasi kekerasan seksual, dengan tetap menempatkan kendali sepenuhnya di tangan pengguna. Produk ini tidak menggantikan'
+    runs [{'t': 'AmanAkses bertujuan untuk memberikan akses yang setara bagi penyandang disabilit', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+276 style='normal' align=LEFT (0) before=None after=None line=None text='Fitur Utama'
+    runs [{'t': 'Fitur Utama', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+277 style='normal' align=JUSTIFY (3) before=None after=None line=None text='AmanAkses terdiri dari sepuluh fitur utama yang saling terintegrasi dalam satu alur kerja yang kohesif.'
+    runs [{'t': 'AmanAkses terdiri dari sepuluh fitur utama yang saling terintegrasi dalam satu a', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+278 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Jurnal Aman adalah editor catatan terenkripsi dengan fitur autosave, voice note, tagging emosional opsional, dan penyimpanan bertahap yang tidak memaksa pengguna menyelesaikan semua isian sekaligus.'
+    runs [{'t': 'Jurnal Aman', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'adalah editor catatan terenkripsi dengan fitur autosave, voice note, tagging emo', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+279 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Brankas Bukti menyediakan penyimpanan file terenkripsi (foto, dokumen, audio, screenshot) dengan metadata otomatis, hash verifikasi, dan sistem label untuk memudahkan pencarian kembali.'
+    runs [{'t': 'Brankas Bukti', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'menyediakan penyimpanan file terenkripsi (foto, dokumen, audio, screenshot) deng', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+280 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Kronologi Kejadian menggunakan AI untuk menyusun urutan kejadian dari catatan dan bukti yang dipilih pengguna berdasarkan waktu, lokasi, dan pihak terkait, dengan kemampuan edit manual.'
+    runs [{'t': 'Kronologi Kejadian', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'menggunakan AI untuk menyusun urutan kejadian dari catatan dan bukti yang dipili', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+281 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Pendamping Terpercaya memungkinkan pengguna menambahkan kontak pendamping, mengatur scope akses (ringkasan saja, kronologi, bukti tertentu), durasi akses, dan mencabut akses kapan saja.'
+    runs [{'t': 'Pendamping Terpercaya', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'memungkinkan pengguna menambahkan kontak pendamping, mengatur scope akses (ringk', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+282 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Consent Sharing memastikan setiap proses berbagi data ditampilkan dalam layar konfirmasi yang menjelaskan secara jelas siapa penerima dan data apa yang akan dibagikan.'
+    runs [{'t': 'Consent Sharing', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'memastikan setiap proses berbagi data ditampilkan dalam layar konfirmasi yang me', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+283 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Laporan Awal menghasilkan dokumen PDF terstruktur berisi ringkasan kejadian, kronologi, daftar bukti, kebutuhan aksesibilitas, dan pilihan tindak lanjut yang dapat diekspor atau dibagikan.'
+    runs [{'t': 'Laporan Awal', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'menghasilkan dokumen PDF terstruktur berisi ringkasan kejadian, kronologi, dafta', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+284 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Safe Exit menyediakan tombol keluar cepat yang mengunci sesi dan mengalihkan ke halaman netral untuk melindungi privasi pengguna.'
+    runs [{'t': 'Safe Exit', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'menyediakan tombol keluar cepat yang mengunci sesi dan mengalihkan ke halaman ne', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+285 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Daftar Layanan Bantuan berisi direktori layanan yang dapat disaring berdasarkan wilayah, jenis bantuan, dan aksesibilitas layanan.'
+    runs [{'t': 'Daftar Layanan Bantuan', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'berisi direktori layanan yang dapat disaring berdasarkan wilayah, jenis bantuan,', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+286 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Pengaturan Aksesibilitas memungkinkan pengguna mengaktifkan screen reader, kontras tinggi, ukuran teks, tombol besar, mode easy-read, dan bahasa isyarat sesuai kebutuhan.'
+    runs [{'t': 'Pengaturan Aksesibilitas', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}, {'t': 'memungkinkan pengguna mengaktifkan screen reader, kontras tinggi, ukuran teks, t', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+287 style='normal' align=LEFT (0) before=None after=None line=None text='Workflow System'
+    runs [{'t': 'Workflow System', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+288 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Alur kerja sistem AmanAkses dirancang secara bertahap untuk mengurangi beban kognitif dan potensi pemicu trauma.'
+    runs [{'t': 'Alur kerja sistem AmanAkses dirancang secara bertahap untuk mengurangi beban kog', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+289 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Pengguna masuk ke sistem menggunakan PIN atau password, kemudian mengatur preferensi aksesibilitas sesuai kebutuhan. Dari dashboard utama, pengguna dapat memulai dari modul Pahami Kekerasan untuk mendapatkan pemahaman dasar, kemudian beralih ke Jurnal Aman unt'
+    runs [{'t': 'Pengguna masuk ke sistem menggunakan PIN atau password, kemudian mengatur prefer', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+290 style='normal' align=LEFT (0) before=None after=None line=None text='Desain Antarmuka (UI/UX)'
+    runs [{'t': 'Desain Antarmuka (UI/UX)', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+291 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Desain antarmuka AmanAkses mengacu pada prinsip WCAG 2.2 yang mencakup empat pilar utama: perceivable (konten dapat dirasakan oleh semua pengguna), operable (komponen UI dapat dioperasikan dengan keyboard maupun sentuh), understandable (informasi dan operasi m'
+    runs [{'t': 'Desain antarmuka AmanAkses mengacu pada prinsip WCAG 2.2 yang mencakup empat pil', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+292 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Secara visual, antarmuka menggunakan skema warna dengan rasio kontras minimum 4.5:1 untuk teks normal, ukuran font minimum 16px, dan tombol dengan ukuran minimum 44x44px sesuai standar aksesibilitas. Bahasa yang digunakan bersifat empatik, tidak menghakimi, da'
+    runs [{'t': 'Secara visual, antarmuka menggunakan skema warna dengan rasio kontras minimum 4.', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+294 style='normal' align=LEFT (0) before=None after=None line=None text='Teknologi yang Digunakan'
+    runs [{'t': 'Teknologi yang Digunakan', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+321 style='normal' align=CENTER (1) before=None after=None line=None text='BAB V'
+    runs [{'t': 'BAB V', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+322 style='normal' align=CENTER (1) before=None after=None line=None text='IMPLEMENTASI PROTOTYPE'
+    runs [{'t': 'IMPLEMENTASI PROTOTYPE', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+324 style='normal' align=LEFT (0) before=None after=None line=None text='Bentuk Prototype'
+    runs [{'t': 'Bentuk Prototype', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+325 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Prototype AmanAkses dikembangkan dalam bentuk aplikasi web berbasis Progressive Web App (PWA) yang dapat diakses melalui browser desktop maupun perangkat mobile. Prototype ini mencakup seluruh modul inti yang diperlukan untuk mendemonstrasikan alur nilai utama'
+    runs [{'t': 'Prototype AmanAkses dikembangkan dalam bentuk aplikasi web berbasis Progressive ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+326 style='normal' align=LEFT (0) before=None after=None line=None text='Lingkungan Pengembangan'
+    runs [{'t': 'Lingkungan Pengembangan', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+327 style='normal' align=LEFT (0) before=None after=None line=None text='Pengembangan prototype dilakukan menggunakan lingkungan sebagai berikut.'
+    runs [{'t': 'Pengembangan prototype dilakukan menggunakan lingkungan sebagai berikut.', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+328 style='normal' align=LEFT (0) before=None after=None line=None text='Sistem Operasi: Windows 11 / macOS'
+    runs [{'t': 'Sistem Operasi: Windows 11 / macOS', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+329 style='normal' align=LEFT (0) before=None after=None line=None text='Code Editor: Visual Studio Code dengan ekstensi Cursor AI'
+    runs [{'t': 'Code Editor: Visual Studio Code dengan ekstensi Cursor AI', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+330 style='normal' align=LEFT (0) before=None after=None line=None text='Runtime: Node.js v20 LTS'
+    runs [{'t': 'Runtime: Node.js v20 LTS', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+331 style='normal' align=LEFT (0) before=None after=None line=None text='Framework Frontend: Next.js 14 dengan App Router'
+    runs [{'t': 'Framework Frontend: Next.js 14 dengan App Router', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+332 style='normal' align=LEFT (0) before=None after=None line=None text='Framework Backend: NestJS'
+    runs [{'t': 'Framework Backend: NestJS', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+333 style='normal' align=LEFT (0) before=None after=None line=None text='Database Local: PostgreSQL via Docker'
+    runs [{'t': 'Database Local: PostgreSQL via Docker', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+334 style='normal' align=LEFT (0) before=None after=None line=None text='Version Control: Git dengan GitHub'
+    runs [{'t': 'Version Control: Git dengan GitHub', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+335 style='normal' align=LEFT (0) before=None after=None line=None text='Testing Aksesibilitas: axe DevTools, Lighthouse di Chrome DevTools'
+    runs [{'t': 'Testing Aksesibilitas: axe DevTools, Lighthouse di Chrome DevTools', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+336 style='normal' align=LEFT (0) before=None after=10.0 line=None text='Desain UI: Figma, Lovable'
+    runs [{'t': 'Desain UI: Figma, Lovable', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+337 style='normal' align=LEFT (0) before=None after=None line=None text='Implementasi Fitur'
+    runs [{'t': 'Implementasi Fitur', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+338 style='normal' align=LEFT (0) before=None after=None line=None text='Fitur Jurnal Aman'
+    runs [{'t': 'Fitur Jurnal Aman', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+339 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Modul Jurnal Aman diimplementasikan sebagai editor teks kaya dengan dukungan voice note melalui Web Speech API. Setiap entri disimpan secara otomatis (autosave) setiap 30 detik dan dienkripsi sebelum dikirim ke server menggunakan AES-256. Pengguna dapat menamb'
+    runs [{'t': 'Modul Jurnal Aman diimplementasikan sebagai editor teks kaya dengan dukungan voi', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+340 style='normal' align=LEFT (0) before=None after=None line=None text='Fitur Kronologi Kejadian dengan AI'
+    runs [{'t': 'Fitur Kronologi Kejadian dengan AI', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+341 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Modul Kronologi Kejadian mengintegrasikan LLM API untuk mengekstraksi informasi temporal dari entri jurnal pengguna. Sistem mengirimkan teks entri yang telah dipilih pengguna ke API dengan prompt terstruktur yang meminta model untuk mengidentifikasi tanggal, w'
+    runs [{'t': 'Modul Kronologi Kejadian mengintegrasikan LLM API untuk mengekstraksi informasi ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+342 style='normal' align=LEFT (0) before=None after=None line=None text='Fitur Laporan Awal dengan Consent Sharing'
+    runs [{'t': 'Fitur Laporan Awal dengan Consent Sharing', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+343 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Modul Laporan Awal memungkinkan pengguna untuk memilih elemen-elemen yang ingin dimasukkan dalam laporan (ringkasan, kronologi, daftar bukti, kebutuhan aksesibilitas). Sistem kemudian menggunakan LLM API untuk menghasilkan draft ringkasan berbahasa natural ber'
+    runs [{'t': 'Modul Laporan Awal memungkinkan pengguna untuk memilih elemen-elemen yang ingin ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+344 style='normal' align=LEFT (0) before=None after=None line=None text='Tampilan Prototype'
+    runs [{'t': 'Tampilan Prototype', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+345 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='Prototype AmanAkses memiliki tampilan yang bersih dan minimalis dengan navigasi sidebar yang konsisten di seluruh halaman. Dashboard utama menampilkan akses cepat ke semua modul utama beserta status ruang aman pengguna dan pesan dukungan. Setiap halaman modul '
+    runs [{'t': 'Prototype AmanAkses memiliki tampilan yang bersih dan minimalis dengan navigasi ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+346 style='normal' align=JUSTIFY (3) before=None after=10.0 line=None text='(Tampilan detail prototype dapat dilihat pada mockup yang terlampir di Gambar 3 hingga Gambar 10)'
+    runs [{'t': '(Tampilan detail prototype dapat dilihat pada mockup yang terlampir di Gambar 3 ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': True, 'underline': None}]
+347 style='normal' align=LEFT (0) before=None after=None line=None text='Alur Penggunaan Sistem'
+    runs [{'t': 'Alur Penggunaan Sistem', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+348 style='normal' align=LEFT (0) before=None after=None line=None text='Alur penggunaan sistem AmanAkses untuk skenario utama adalah sebagai berikut.'
+    runs [{'t': 'Alur penggunaan sistem AmanAkses untuk skenario utama adalah sebagai berikut.', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+349 style='normal' align=None before=None after=None line=None text='Pengguna membuka AmanAkses dan masuk menggunakan PIN.'
+    runs [{'t': 'Pengguna membuka AmanAkses dan masuk menggunakan PIN.', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+350 style='normal' align=None before=None after=None line=None text='Pengguna mengaktifkan preferensi aksesibilitas (misalnya: easy-read mode dan kontras tinggi).'
+    runs [{'t': 'Pengguna mengaktifkan preferensi aksesibilitas (misalnya: easy-read mode dan kon', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+351 style='normal' align=None before=None after=None line=None text='Pengguna membuka modul Pahami Kekerasan dan membaca atau mendengarkan materi tentang bentuk kekerasan dan hak korban.'
+    runs [{'t': 'Pengguna membuka modul Pahami Kekerasan dan membaca atau mendengarkan materi ten', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+352 style='normal' align=None before=None after=None line=None text='Pengguna membuat entri baru di Jurnal Aman, merekam voice note, dan menyimpan sebagai draft.'
+    runs [{'t': 'Pengguna membuat entri baru di Jurnal Aman, merekam voice note, dan menyimpan se', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+353 style='normal' align=None before=None after=None line=None text='Pengguna mengunggah beberapa screenshot percakapan ke Brankas Bukti dan menambahkan label.'
+    runs [{'t': 'Pengguna mengunggah beberapa screenshot percakapan ke Brankas Bukti dan menambah', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+354 style='normal' align=None before=None after=None line=None text='Pengguna membuka Kronologi Kejadian dan memilih entri jurnal serta bukti yang relevan untuk disusun oleh AI.'
+    runs [{'t': 'Pengguna membuka Kronologi Kejadian dan memilih entri jurnal serta bukti yang re', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+355 style='normal' align=None before=None after=None line=None text='Pengguna meninjau draft kronologi yang dihasilkan AI, mengedit beberapa bagian, dan menyimpannya.'
+    runs [{'t': 'Pengguna meninjau draft kronologi yang dihasilkan AI, mengedit beberapa bagian, ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+356 style='normal' align=None before=None after=None line=None text='Pengguna memilih pendamping terpercaya dari kontak yang tersimpan dan mengatur scope akses (ringkasan dan kronologi saja).'
+    runs [{'t': 'Pengguna memilih pendamping terpercaya dari kontak yang tersimpan dan mengatur s', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+357 style='normal' align=None before=None after=None line=None text='Pengguna membuat Laporan Awal, meninjau draft yang dihasilkan AI, dan mengekspor sebagai PDF.'
+    runs [{'t': 'Pengguna membuat Laporan Awal, meninjau draft yang dihasilkan AI, dan mengekspor', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+358 style='normal' align=None before=None after=12.0 line=None text='Pengguna menekan tombol Safe Exit untuk mengunci sesi dan keluar dengan aman.'
+    runs [{'t': 'Pengguna menekan tombol Safe Exit untuk mengunci sesi dan keluar dengan aman.', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+359 style='normal' align=CENTER (1) before=None after=None line=None text='BAB VI'
+    runs [{'t': 'BAB VI', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+360 style='normal' align=CENTER (1) before=None after=None line=None text='VALIDASI DAN EVALUASI'
+    runs [{'t': 'VALIDASI DAN EVALUASI', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+362 style='normal' align=LEFT (0) before=None after=None line=None text='Metode Pengujian'
+    runs [{'t': 'Metode Pengujian', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+363 style='normal' align=LEFT (0) before=None after=None line=None text='Hasil Pengujian Dasar'
+    runs [{'t': 'Hasil Pengujian Dasar', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+364 style='normal' align=LEFT (0) before=None after=None line=None text='Feedback pengguna (jika ada)'
+    runs [{'t': 'Feedback pengguna (jika ada)', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+365 style='normal' align=LEFT (0) before=None after=None line=None text='Kelebihan Solusi'
+    runs [{'t': 'Kelebihan Solusi', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+366 style='normal' align=LEFT (0) before=None after=None line=None text='Kelemahan Solusi'
+    runs [{'t': 'Kelemahan Solusi', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+367 style='normal' align=LEFT (0) before=None after=None line=None text='Potensi Pengembangan'
+    runs [{'t': 'Potensi Pengembangan', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+403 style='normal' align=CENTER (1) before=None after=None line=None text='BAB VII'
+    runs [{'t': 'BAB VII', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+404 style='normal' align=CENTER (1) before=None after=None line=None text='PENUTUP'
+    runs [{'t': 'PENUTUP', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+406 style='normal' align=LEFT (0) before=None after=None line=None text='Kesimpulan'
+    runs [{'t': 'Kesimpulan', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+407 style='normal' align=JUSTIFY (3) before=None after=None line=None text='AmanAkses merupakan platform digital aksesibel yang dikembangkan untuk menjawab kebutuhan nyata penyandang disabilitas dalam menghadapi situasi kekerasan seksual. Melalui integrasi prinsip aksesibilitas digital (WCAG 2.2), desain berbasis trauma, privacy by de'
+    runs [{'t': 'AmanAkses merupakan platform digital aksesibel yang dikembangkan untuk menjawab ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+408 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Proses pengembangan yang memanfaatkan AI sebagai partner kerja, mulai dari tahap brainstorming hingga implementasi, menunjukkan bahwa AI dapat memberikan percepatan yang signifikan dalam pengembangan solusi, asalkan digunakan dengan kritis, disertai validasi y'
+    runs [{'t': 'Proses pengembangan yang memanfaatkan AI sebagai partner kerja, mulai dari tahap', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+409 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Prototype yang dihasilkan berhasil mendemonstrasikan alur nilai utama AmanAkses secara end-to-end, dari membaca materi edukasi hingga menghasilkan laporan awal yang siap dibagikan kepada pendamping. Meskipun masih terdapat beberapa aspek yang perlu disempurnak'
+    runs [{'t': 'Prototype yang dihasilkan berhasil mendemonstrasikan alur nilai utama AmanAkses ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+411 style='normal' align=LEFT (0) before=None after=None line=None text='Saran'
+    runs [{'t': 'Saran', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+412 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Berdasarkan proses pengembangan dan evaluasi yang telah dilakukan, beberapa saran untuk pengembangan ke depan adalah sebagai berikut.'
+    runs [{'t': 'Berdasarkan proses pengembangan dan evaluasi yang telah dilakukan, beberapa sara', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+413 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Pertama, pengujian aksesibilitas sebaiknya melibatkan pengguna nyata penyandang disabilitas dari berbagai jenis disabilitas untuk mendapatkan feedback yang lebih akurat dan representatif.'
+    runs [{'t': 'Pertama, pengujian aksesibilitas sebaiknya melibatkan pengguna nyata penyandang ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+414 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Kedua, implementasi enkripsi client-side perlu diprioritaskan sebelum platform diluncurkan ke publik, mengingat sensitivitas data yang dikelola.'
+    runs [{'t': 'Kedua, implementasi enkripsi client-side perlu diprioritaskan sebelum platform d', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+415 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Ketiga, kolaborasi dengan Satgas PPKS/PPKPT di perguruan tinggi sebaiknya dibangun sejak awal pengembangan lanjutan untuk memastikan laporan awal yang dihasilkan sesuai dengan SOP yang berlaku.'
+    runs [{'t': 'Ketiga, kolaborasi dengan Satgas PPKS/PPKPT di perguruan tinggi sebaiknya dibang', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+416 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Keempat, fitur AI perlu terus dievaluasi secara berkala untuk memastikan output yang dihasilkan tetap akurat, empatik, dan tidak menambahkan informasi yang tidak berasal dari pengguna.'
+    runs [{'t': 'Keempat, fitur AI perlu terus dievaluasi secara berkala untuk memastikan output ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+417 style='normal' align=JUSTIFY (3) before=None after=None line=None text='Kelima, keberlanjutan platform ini sangat bergantung pada kepercayaan pengguna, sehingga transparansi tentang cara kerja sistem, kebijakan data, dan mekanisme audit perlu dikomunikasikan secara jelas dan aksesibel kepada seluruh pengguna.'
+    runs [{'t': 'Kelima, keberlanjutan platform ini sangat bergantung pada kepercayaan pengguna, ', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+418 style='normal' align=CENTER (1) before=None after=None line=None text='DAFTAR PUSTAKA'
+    runs [{'t': 'DAFTAR PUSTAKA', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+462 style='normal' align=CENTER (1) before=None after=None line=None text='LAMPIRAN'
+    runs [{'t': 'LAMPIRAN', 'font': 'Times New Roman', 'size': 12.0, 'bold': True, 'italic': None, 'underline': None}]
+464 style='normal' align=LEFT (0) before=None after=None line=None text='Lampiran A Dokumentasi Prompt AI'
+    runs [{'t': 'Lampiran A Dokumentasi Prompt AI', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+465 style='normal' align=LEFT (0) before=None after=None line=None text='Lampiran B Link Presentasi Video dan PDF'
+    runs [{'t': 'Lampiran B Link Presentasi Video dan PDF', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+466 style='normal' align=LEFT (0) before=None after=None line=None text='Lampiran C Link Video Demo'
+    runs [{'t': 'Lampiran C Link Video Demo', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+467 style='normal' align=LEFT (0) before=None after=None line=None text='Lampiran D Link Prototype'
+    runs [{'t': 'Lampiran D Link Prototype', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+468 style='normal' align=LEFT (0) before=None after=None line=None text='Lampiran E Source Code'
+    runs [{'t': 'Lampiran E Source Code', 'font': 'Times New Roman', 'size': 12.0, 'bold': None, 'italic': None, 'underline': None}]
+
+TABLES
+TABLE 0 rows 9 cols 2 style None
+  0 ['Persona', 'Kebutuhan Utama']
+  1 ['Pengguna dengan disabilitas netra/low vision', 'Informasi semantik, screen reader, navigasi keyboard, audio guidance, voice note, dan kontras tinggi']
+  2 ['Pengguna Tuli atau hambatan pendengaran', 'Informasi berbasis teks, visual step-by-step, video bahasa isyarat, notifikasi non-audio, dan ringka']
+  3 ['Pengguna dengan disabilitas intelektual atau kognitif', 'Bahasa sederhana, ikon yang jelas, pertanyaan bertahap, validasi ulang sebelum berbagi, dan easy-rea']
+  4 ['Pengguna dengan disabilitas fisik', 'Tombol besar, interaksi minim klik, dukungan keyboard, voice input, dan alur yang tidak membutuhkan ']
+  5 ['Pengguna dengan disabilitas psikososial', 'Alur yang tidak memaksa, penyimpanan bertahap, afirmasi dukungan, pilihan jeda, safe exit, dan kenda']
+  6 ['Pendamping terpercaya', 'Menerima ringkasan yang telah disetujui pengguna, memahami kebutuhan aksesibilitas, dan membantu men']
+  7 ['Satgas/lembar layanan/bantuan hukum', 'Menerima laporan awal yang terstruktur, metadata, kebutuhan akomodasi, dan status persetujuan penggu']
+ ...
+TABLE 1 rows 11 cols 3 style None
+  0 ['Kode', 'Fitur', 'Deskripsi']
+  1 ['F-01', 'Profil Aksesibilitas', 'Pengguna dapat memilih preferensi screen reader, kontras tinggi, tombol besar, ukuran teks, bahasa s']
+  2 ['F-02', 'Pahami Kekerasan', 'Sistem menyediakan materi edukasi tentang bentuk kekerasan, hak pengguna, pilihan bantuan, dan langk']
+  3 ['F-03', 'Jurnal Aman', 'Pengguna dapat mencatat pengalaman melalui teks, suara, atau media dengan autosave dan enkripsi.']
+  4 ['F-04', 'Brankas Bukti', 'Pengguna dapat menyimpan foto, dokumen, screenshot, audio, dan file lain dengan enkripsi, label, dan']
+  5 ['F-05', 'Kronologi Kejadian', 'Sistem membantu menyusun urutan kejadian dari catatan dan bukti berdasarkan waktu, lokasi, dan pihak']
+  6 ['F-06', 'Pendamping Terpercaya', 'Pengguna dapat menambahkan kontak pendamping dan mengatur hak serta durasi akses.']
+  7 ['F-07', 'Consent Sharing', 'Setiap proses berbagi laporan atau bukti memerlukan konfirmasi eksplisit dan catatan audit.']
+ ...
+TABLE 2 rows 7 cols 2 style None
+  0 ['Aspek', 'Kebutuhan']
+  1 ['Keamanan', 'Enkripsi at-rest dan in-transit, autentikasi PIN/password, MFA opsional, audit log, dan proteksi fil']
+  2 ['Privasi', 'Minimisasi data, consent ledger, kontrol berbagi granular, opsi hapus data, dan mode diskret.']
+  3 ['Aksesibilitas', 'Mengacu pada prinsip WCAG 2.2: perceivable, operable, understandable, robust; kompatibel dengan scre']
+  4 ['Usability', 'Alur ringkas, bahasa empatik, tidak menyalahkan korban, simpan bertahap, dan tidak memaksa pengisian']
+  5 ['Reliabilitas', 'Autosave, backup terenkripsi, retry upload, dan recovery saat jaringan buruk.']
+  6 ['Etika AI', 'AI hanya sebagai asisten penyusunan dan penyederhanaan bahasa, tidak membuat vonis atau rekomendasi ']
+TABLE 3 rows 10 cols 2 style None
+  0 ['Lapisan', 'Teknologi']
+  1 ['Frontend Web/PWA', 'Next.js/React, TypeScript, Tailwind CSS, komponen ARIA']
+  2 ['Mobile Companion', 'React Native / PWA mobile-first']
+  3 ['Backend', 'NestJS / FastAPI, REST API, JWT, OpenAPI']
+  4 ['Database', 'PostgreSQL']
+  5 ['Object Storage', 'MinIO / S3-compatible']
+  6 ['Enkripsi', 'TLS, enkripsi at-rest, envelope encryption']
+  7 ['AI/NLP', 'Speech-to-text, text simplification, summarization, report drafting via LLM API']
+ ...
+
+HEADERS/FOOTERS
+section 1 header [''] footer ['']

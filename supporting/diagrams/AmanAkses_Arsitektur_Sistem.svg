@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3faf8"/>
+      <stop offset="1" stop-color="#f7f3ff"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d28d9"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity=".10"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#64748b"/>
+    </marker>
+    <style>
+      .title{font:800 48px 'Arial',sans-serif;fill:#0f172a}
+      .subtitle{font:400 21px 'Arial',sans-serif;fill:#475569}
+      .lane{font:700 18px 'Arial',sans-serif;fill:#0f766e;letter-spacing:1px}
+      .box-title{font:700 23px 'Arial',sans-serif;fill:#0f172a}
+      .box-copy{font:400 17px 'Arial',sans-serif;fill:#475569}
+      .white-title{font:700 23px 'Arial',sans-serif;fill:#fff}
+      .white-copy{font:400 17px 'Arial',sans-serif;fill:#ecfeff}
+      .small{font:600 15px 'Arial',sans-serif;fill:#64748b}
+      .arrow{fill:none;stroke:#64748b;stroke-width:4;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#8b5cf6;stroke-width:3;stroke-dasharray:10 9;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1490" cy="60" r="220" fill="#ccfbf1" opacity=".55"/>
+  <circle cx="120" cy="820" r="250" fill="#ede9fe" opacity=".6"/>
+
+  <text x="80" y="76" class="title">Arsitektur Sistem AmanAkses</text>
+  <text x="80" y="112" class="subtitle">AI dibatasi untuk bantuan navigasi dan penyusunan draf; keputusan tetap pada pengguna dan pendamping manusia.</text>
+
+  <rect x="70" y="155" width="1460" height="650" rx="32" fill="#ffffff" opacity=".86" stroke="#dbe7e4" filter="url(#shadow)"/>
+
+  <text x="105" y="205" class="lane">LAPISAN PENGGUNA</text>
+  <rect x="105" y="230" width="290" height="145" rx="24" fill="url(#teal)" filter="url(#shadow)"/>
+  <text x="135" y="275" class="white-title">Pengguna</text>
+  <text x="135" y="308" class="white-copy">Memilih data, bertanya,</text>
+  <text x="135" y="333" class="white-copy">mengedit, menerima, menolak</text>
+  <text x="135" y="358" class="white-copy">dan memberi persetujuan.</text>
+
+  <rect x="105" y="435" width="290" height="145" rx="24" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="135" y="480" class="box-title">Pendamping manusia</text>
+  <text x="135" y="513" class="box-copy">Meninjau laporan, memberi</text>
+  <text x="135" y="538" class="box-copy">dukungan, dan mengambil</text>
+  <text x="135" y="563" class="box-copy">keputusan di luar sistem.</text>
+
+  <text x="465" y="205" class="lane">ANTARMUKA AKSESIBEL</text>
+  <rect x="465" y="230" width="360" height="350" rx="28" fill="#ffffff" stroke="#99d8cf" stroke-width="3" filter="url(#shadow)"/>
+  <text x="500" y="278" class="box-title">React + Vite UI</text>
+  <text x="500" y="315" class="box-copy">• Materi easy-read</text>
+  <text x="500" y="347" class="box-copy">• Jurnal dan brankas bukti</text>
+  <text x="500" y="379" class="box-copy">• Safe Timeline Assistant</text>
+  <text x="500" y="411" class="box-copy">• Asisten Aman chatbot</text>
+  <text x="500" y="443" class="box-copy">• Laporan dan consent</text>
+  <text x="500" y="475" class="box-copy">• Aksesibilitas dan safe exit</text>
+  <rect x="500" y="510" width="290" height="42" rx="15" fill="#ecfdf5"/>
+  <text x="521" y="537" class="small">Data demo sintetis • keyboard-ready</text>
+
+  <text x="895" y="205" class="lane">ORKESTRASI AI SERVER-SIDE</text>
+  <rect x="895" y="230" width="555" height="180" rx="28" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="3"/>
+  <text x="930" y="275" class="box-title">Local API middleware / serverless API</text>
+  <text x="930" y="310" class="box-copy">POST /api/timeline dan POST /api/chat</text>
+  <text x="930" y="342" class="box-copy">Validasi input, pembatasan panjang, dan minimisasi data.</text>
+  <text x="930" y="374" class="box-copy">GEMINI_API_KEY hanya dibaca pada proses server.</text>
+
+  <rect x="895" y="455" width="250" height="125" rx="24" fill="url(#violet)" filter="url(#shadow)"/>
+  <text x="925" y="500" class="white-title">Gemini</text>
+  <text x="925" y="532" class="white-copy">Structured JSON</text>
+  <text x="925" y="557" class="white-copy">temperature rendah</text>
+
+  <rect x="1200" y="455" width="250" height="125" rx="24" fill="#fff7ed" stroke="#fdba74" stroke-width="3"/>
+  <text x="1230" y="500" class="box-title">Fallback lokal</text>
+  <text x="1230" y="532" class="box-copy">Deterministik, konservatif,</text>
+  <text x="1230" y="557" class="box-copy">tetap dapat didemokan.</text>
+
+  <rect x="895" y="630" width="555" height="115" rx="24" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="3"/>
+  <text x="930" y="674" class="box-title">Validator + human-review gate</text>
+  <text x="930" y="706" class="box-copy">Route dibatasi, sumber wajib valid, bidang hilang tidak ditebak, semua hasil tetap draf.</text>
+
+  <path d="M395 302 H450" class="arrow"/>
+  <path d="M465 505 H415" class="arrow"/>
+  <path d="M825 320 H880" class="arrow"/>
+  <path d="M1020 410 V440" class="arrow"/>
+  <path d="M1325 410 V440" class="arrow"/>
+  <path d="M1020 580 V615" class="arrow"/>
+  <path d="M1325 580 V615" class="arrow"/>
+  <path d="M895 688 H845 V530 H825" class="arrow"/>
+  <path d="M645 580 V665 H430 V535 H395" class="dash"/>
+
+  <rect x="105" y="635" width="720" height="110" rx="22" fill="#fff1f2" stroke="#fda4af" stroke-width="2"/>
+  <text x="135" y="676" class="box-title">Batas data dan etika</text>
+  <text x="135" y="707" class="box-copy">Tidak menilai kebenaran, niat, kesalahan, diagnosis, atau status hukum.</text>
+  <text x="135" y="733" class="box-copy">Keadaan darurat diarahkan ke bantuan manusia dan keluar cepat.</text>
+
+  <text x="80" y="855" class="small">AmanAkses prototype • AI For Real Impact 2026 • Data pengembangan dan demonstrasi bersifat sintetis</text>
+</svg>

@@ -1,0 +1,11 @@
+01 Editorial cover: promise + hero artwork + one-line boundary.
+02 Friction path: fragmented reporting burden shown as an escalating path.
+03 Accessibility map: four barrier families surrounding the affected user.
+04 End-to-end workflow: six connected stages with user-control checkpoints.
+05 Product demo: real Safe Timeline Assistant screenshot with callouts.
+06 Architecture: browser, serverless function, Gemini/fallback, and data boundaries.
+07 Human review: three decision gates and explicit prohibited inferences.
+08 Prototype map: product capabilities around the user, labeled interactive/simulated.
+09 Validation: 10/10 fixtures, build/lint checks, and unresolved peer-testing gap.
+10 Closing: impact ladder, next milestones, and memorable central promise.
+

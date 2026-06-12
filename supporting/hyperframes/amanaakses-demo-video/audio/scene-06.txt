@@ -1,0 +1,1 @@
+Laporan awal merangkum informasi yang telah dipilih: ringkasan pengguna, kronologi yang diterima, bukti, dan kebutuhan akses. Dokumen ini bukan putusan hukum, diagnosis, atau penentu kebenaran. Kunci Gemini disimpan melalui environment variable server-side bernama Gemini A P I Key. Kunci tersebut tidak dikirim ke browser dan tidak dimasukkan ke source archive.
