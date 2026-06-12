@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+:root {
+  font-family:
+    "Plus Jakarta Sans",
+    "Nunito Sans",
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: #0f172a;
+  background: #f3faf8;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01" on, "cv11" on;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(60rem 40rem at 110% -10%, rgba(13, 148, 136, 0.07), transparent 60%),
+    radial-gradient(50rem 36rem at -20% 110%, rgba(124, 58, 237, 0.05), transparent 60%),
+    #f3faf8;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(13, 148, 136, 0.22);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  border: 3px solid #f3faf8;
+  background: #b9d8d2;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8fc1b8;
+}
+
+.soft-grid {
+  background-image:
+    linear-gradient(rgba(13, 148, 136, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(13, 148, 136, 0.08) 1px, transparent 1px);
+  background-size: 34px 34px;
+  mask-image: linear-gradient(to bottom, black, transparent 92%);
+}
+
+.hero-orbs {
+  background-image:
+    radial-gradient(14rem 14rem at 85% 20%, rgba(255, 255, 255, 0.14), transparent 70%),
+    radial-gradient(10rem 10rem at 68% 90%, rgba(167, 243, 208, 0.18), transparent 70%),
+    radial-gradient(8rem 8rem at 12% 110%, rgba(196, 181, 253, 0.2), transparent 70%);
+}
+
+.high-contrast {
+  --tw-shadow-color: rgb(15 23 42 / 0.16);
+}
+
+.high-contrast .soft-grid {
+  opacity: 0.25;
+}
+
+.easy-read p,
+.easy-read li {
+  line-height: 1.8;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
