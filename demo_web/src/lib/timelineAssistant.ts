@@ -3,7 +3,7 @@ import type {
   TimelineCandidate,
   TimelineSourceNote,
   TimelineUncertainty,
-} from '../types'
+} from '../types.js'
 
 const DATE_PATTERN =
   /\b(\d{1,2}\s+(?:Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember)\s+\d{4})\b/i

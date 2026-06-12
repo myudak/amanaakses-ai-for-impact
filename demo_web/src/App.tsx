@@ -352,12 +352,12 @@ function LandingPage() {
             >
               Mulai ruang aman <ChevronRight className="size-5" />
             </Link>
-            <Link
+            {/* <Link
               to="/app/mobile-preview"
               className="inline-flex h-13 items-center justify-center gap-2 rounded-full border border-teal-200 bg-white/85 px-7 text-base font-bold text-teal-900 shadow-sm transition hover:-translate-y-0.5 hover:border-teal-300 hover:bg-teal-50"
             >
               Lihat mobile preview <Eye className="size-5" />
-            </Link>
+            </Link> */}
           </div>
           <dl className="mt-10 grid max-w-xl grid-cols-2 gap-3 sm:grid-cols-4">
             {[

@@ -1,10 +1,11 @@
+import { env } from 'node:process'
 import {
   createDeterministicChatReply,
   validateChatResponse,
   type ChatHistoryItem,
-} from '../src/lib/chatAssistant'
+} from '../src/lib/chatAssistant.js'
 
-const MODEL = process.env.GEMINI_MODEL || 'gemini-3.1-flash-lite'
+const MODEL = env.GEMINI_MODEL || 'gemini-3.1-flash-lite'
 const MAX_MESSAGE_LENGTH = 1600
 const MAX_HISTORY = 12
 
@@ -146,14 +147,14 @@ export default async function handler(request: ApiRequest, response: ApiResponse
   const { message, history } = normalizeBody(request.body)
   if (!message) return response.status(400).json({ error: 'Tulis pesan terlebih dahulu.' })
 
-  if (!process.env.GEMINI_API_KEY) {
+  if (!env.GEMINI_API_KEY) {
     return response.status(200).json(createDeterministicChatReply(message))
   }
 
   try {
     const endpoint =
       `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(MODEL)}:generateContent` +
-      `?key=${encodeURIComponent(process.env.GEMINI_API_KEY)}`
+      `?key=${encodeURIComponent(env.GEMINI_API_KEY)}`
     const geminiResponse = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

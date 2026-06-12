@@ -3,7 +3,7 @@ import type {
   ChatSafetyLevel,
   ChatSuggestedAction,
   ChatToolCall,
-} from '../types'
+} from '../types.js'
 
 export interface ChatHistoryItem {
   role: 'user' | 'assistant'

@@ -1,10 +1,11 @@
+import { env } from 'node:process'
 import {
   createDeterministicTimeline,
   validateTimelineResponse,
-} from '../src/lib/timelineAssistant'
-import type { TimelineSourceNote } from '../src/types'
+} from '../src/lib/timelineAssistant.js'
+import type { TimelineSourceNote } from '../src/types.js'
 
-const MODEL = process.env.GEMINI_MODEL || 'gemini-3.1-flash-lite'
+const MODEL = env.GEMINI_MODEL || 'gemini-3.1-flash-lite'
 const MAX_NOTES = 10
 const MAX_NOTE_LENGTH = 4000
 
@@ -99,14 +100,14 @@ export default async function handler(request: ApiRequest, response: ApiResponse
   const notes = normalizeNotes(request.body)
   if (!notes.length) return response.status(400).json({ error: 'Pilih setidaknya satu catatan.' })
 
-  if (!process.env.GEMINI_API_KEY) {
+  if (!env.GEMINI_API_KEY) {
     return response.status(200).json(createDeterministicTimeline(notes))
   }
 
   try {
     const endpoint =
       `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(MODEL)}:generateContent` +
-      `?key=${encodeURIComponent(process.env.GEMINI_API_KEY)}`
+      `?key=${encodeURIComponent(env.GEMINI_API_KEY)}`
     const geminiResponse = await fetch(endpoint, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
